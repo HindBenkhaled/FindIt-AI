@@ -1,0 +1,812 @@
+{
+  "split": "test",
+  "reports": [
+    {
+      "id": 11001,
+      "report_type": "lost",
+      "name": "Graphing calculator",
+      "description": "Graphing calculator in a translucent smoke cover; the seven key has a blue paint dot.",
+      "location": "Engineering Building",
+      "identifying_details": "blue-seven",
+      "event_date": "2026-10-04",
+      "image_path": "images/11001.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12001,
+      "report_type": "found",
+      "name": "Recovered calculator",
+      "description": "Dark scientific calculator with a see-through grey shell and a tiny blue spot on key 7.",
+      "location": "Engineering Building",
+      "identifying_details": "blue-seven",
+      "event_date": "2026-10-05",
+      "image_path": "images/12001.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13001,
+      "report_type": "found",
+      "name": "Recovered calculator",
+      "description": "Similar graphing calculator in a clear cover with an unmarked keypad.",
+      "location": "Engineering Building",
+      "identifying_details": null,
+      "event_date": "2026-10-05",
+      "image_path": "images/13001.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11002,
+      "report_type": "lost",
+      "name": "White laboratory coat",
+      "description": "Short white lab coat embroidered M.K. inside the collar and missing its lowest button.",
+      "location": "Science Building",
+      "identifying_details": "collar-mk",
+      "event_date": "2026-10-05",
+      "image_path": "images/11002.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Clothing",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12002,
+      "report_type": "found",
+      "name": "Recovered labcoat",
+      "description": "White practical coat with small M.K. stitching at the neck; bottom fastener absent.",
+      "location": "Science Building",
+      "identifying_details": "collar-mk",
+      "event_date": "2026-10-06",
+      "image_path": "images/12002.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Clothing",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13002,
+      "report_type": "found",
+      "name": "Recovered labcoat",
+      "description": "White lab coat of the same size with all buttons and no lettering.",
+      "location": "Science Building",
+      "identifying_details": null,
+      "event_date": "2026-10-06",
+      "image_path": "images/13002.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Clothing",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11003,
+      "report_type": "lost",
+      "name": "Camera lens cap",
+      "description": "Black 58 mm lens cap with a faded silver crescent decal on the back.",
+      "location": "Lecture Hall",
+      "identifying_details": "moon-decal",
+      "event_date": "2026-10-06",
+      "image_path": "images/11003.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12003,
+      "report_type": "found",
+      "name": "Recovered lens",
+      "description": "Round 58mm camera cover carrying a worn metallic moon sticker.",
+      "location": "Lecture Hall",
+      "identifying_details": "moon-decal",
+      "event_date": "2026-10-07",
+      "image_path": "images/12003.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13003,
+      "report_type": "found",
+      "name": "Recovered lens",
+      "description": "Plain black 58 mm lens cap without a sticker.",
+      "location": "Lecture Hall",
+      "identifying_details": null,
+      "event_date": "2026-10-07",
+      "image_path": "images/13003.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11004,
+      "report_type": "lost",
+      "name": "Cycling helmet",
+      "description": "Teal bicycle helmet with a diagonal scrape above the left vent and a grey chin buckle.",
+      "location": "Parking",
+      "identifying_details": "left-abrasion",
+      "event_date": "2026-10-07",
+      "image_path": "images/11004.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12004,
+      "report_type": "found",
+      "name": "Recovered helmet",
+      "description": "Blue-green riding helmet; slanted abrasion beside the left air opening, grey clasp.",
+      "location": "Parking",
+      "identifying_details": "left-abrasion",
+      "event_date": "2026-10-07",
+      "image_path": "images/12004.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13004,
+      "report_type": "found",
+      "name": "Recovered helmet",
+      "description": "Teal cycling helmet with an intact shell and black buckle.",
+      "location": "Gym",
+      "identifying_details": null,
+      "event_date": "2026-10-07",
+      "image_path": "images/13004.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11005,
+      "report_type": "lost",
+      "name": "Portable SSD",
+      "description": "Palm-sized silver external drive attached to a short cobalt USB cable.",
+      "location": "Computer Lab",
+      "identifying_details": "cobalt-lead",
+      "event_date": "2026-10-08",
+      "image_path": "images/11005.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12005,
+      "report_type": "found",
+      "name": "Recovered drive",
+      "description": "Compact metallic storage device with a brief bright-blue USB lead.",
+      "location": "Computer Lab",
+      "identifying_details": "cobalt-lead",
+      "event_date": "2026-10-09",
+      "image_path": "images/12005.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13005,
+      "report_type": "found",
+      "name": "Recovered drive",
+      "description": "Small silver external drive supplied with a short black cable.",
+      "location": "Computer Lab",
+      "identifying_details": null,
+      "event_date": "2026-10-09",
+      "image_path": "images/13005.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11006,
+      "report_type": "lost",
+      "name": "Wireless computer mouse",
+      "description": "Charcoal wireless mouse with the rear-left rubber foot missing.",
+      "location": "Main Library",
+      "identifying_details": "missing-foot",
+      "event_date": "2026-10-09",
+      "image_path": "images/11006.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12006,
+      "report_type": "found",
+      "name": "Recovered mouse",
+      "description": "Dark cordless mouse; one glide pad is absent from the back-left underside.",
+      "location": "Main Library",
+      "identifying_details": "missing-foot",
+      "event_date": "2026-10-10",
+      "image_path": "images/12006.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13006,
+      "report_type": "found",
+      "name": "Recovered mouse",
+      "description": "Charcoal wireless mouse with all four feet attached.",
+      "location": "Computer Lab",
+      "identifying_details": null,
+      "event_date": "2026-10-10",
+      "image_path": "images/13006.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11007,
+      "report_type": "lost",
+      "name": "Silver signet ring",
+      "description": "Small silver signet ring engraved with two parallel waves inside the band.",
+      "location": "Gym",
+      "identifying_details": "twin-waves",
+      "event_date": "2026-10-10",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_lost_image"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12007,
+      "report_type": "found",
+      "name": "Recovered ring",
+      "description": "Compact metallic seal ring with a pair of wavy lines etched on its inner surface.",
+      "location": "Gym",
+      "identifying_details": "twin-waves",
+      "event_date": "2026-10-11",
+      "image_path": "images/12007.png",
+      "challenge_tags": [
+        "similar_item",
+        "missing_lost_image"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13007,
+      "report_type": "found",
+      "name": "Recovered ring",
+      "description": "Small plain silver signet ring with a smooth inner band.",
+      "location": "Gym",
+      "identifying_details": null,
+      "event_date": "2026-10-11",
+      "image_path": "images/13007.png",
+      "challenge_tags": [
+        "similar_item",
+        "missing_lost_image"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11008,
+      "report_type": "lost",
+      "name": "Olive lunch container",
+      "description": "Olive rectangular lunch box with one cream latch chipped at the corner.",
+      "location": "Cafeteria",
+      "identifying_details": "chipped-latch",
+      "event_date": "2026-10-11",
+      "image_path": "images/11008.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12008,
+      "report_type": "found",
+      "name": "Recovered lunchbox",
+      "description": "Green meal container; pale locking tab has a broken corner.",
+      "location": "Cafeteria",
+      "identifying_details": "chipped-latch",
+      "event_date": "2026-10-12",
+      "image_path": "images/12008.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13008,
+      "report_type": "found",
+      "name": "Recovered lunchbox",
+      "description": "Olive lunch container with two complete cream latches.",
+      "location": "Cafeteria",
+      "identifying_details": null,
+      "event_date": "2026-10-12",
+      "image_path": "images/13008.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11009,
+      "report_type": "lost",
+      "name": "Orange USB drive",
+      "description": "Orange USB flash drive on a tiny metal chain with a triangular bead.",
+      "location": "Student Services",
+      "identifying_details": "triangle-bead",
+      "event_date": "2026-10-12",
+      "image_path": "images/11009.png",
+      "challenge_tags": [
+        "similar_item",
+        "category_conflict"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12009,
+      "report_type": "found",
+      "name": "Recovered flashdrive",
+      "description": "Bright tangerine memory stick attached to a short chain and three-sided charm.",
+      "location": "Student Services",
+      "identifying_details": "triangle-bead",
+      "event_date": "2026-10-13",
+      "image_path": "images/12009.png",
+      "challenge_tags": [
+        "similar_item",
+        "category_conflict"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13009,
+      "report_type": "found",
+      "name": "Recovered flashdrive",
+      "description": "Orange flash drive on a plain key ring without a bead.",
+      "location": "Student Services",
+      "identifying_details": null,
+      "event_date": "2026-10-13",
+      "image_path": "images/13009.png",
+      "challenge_tags": [
+        "similar_item",
+        "category_conflict"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11010,
+      "report_type": "lost",
+      "name": "Over-ear headphones",
+      "description": "Cream over-ear headphones with burgundy tape wrapped around the right hinge.",
+      "location": "Student Center",
+      "identifying_details": "burgundy-repair",
+      "event_date": "2026-10-13",
+      "image_path": "images/11010.png",
+      "challenge_tags": [
+        "similar_item",
+        "missing_found_image"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12010,
+      "report_type": "found",
+      "name": "Recovered headphones",
+      "description": "Off-white full-size headset repaired with dark-red tape at its right joint.",
+      "location": "Student Center",
+      "identifying_details": "burgundy-repair",
+      "event_date": "2026-10-14",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_found_image"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13010,
+      "report_type": "found",
+      "name": "Recovered headphones",
+      "description": "Cream over-ear headphones with an unrepaired right hinge.",
+      "location": "Student Center",
+      "identifying_details": null,
+      "event_date": "2026-10-14",
+      "image_path": "images/13010.png",
+      "challenge_tags": [
+        "similar_item",
+        "missing_found_image"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11011,
+      "report_type": "lost",
+      "name": "Canvas pencil pouch",
+      "description": "Sand-coloured canvas pencil pouch with a violet ink blot near the brass zip.",
+      "location": "Reception",
+      "identifying_details": "violet-blot",
+      "event_date": "2026-10-14",
+      "image_path": "images/11011.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12011,
+      "report_type": "found",
+      "name": "Recovered pencilcase",
+      "description": "Beige fabric stationery case; purple stain beside its metal zipper.",
+      "location": "Reception",
+      "identifying_details": "violet-blot",
+      "event_date": "2026-10-15",
+      "image_path": "images/12011.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13011,
+      "report_type": "found",
+      "name": "Recovered pencilcase",
+      "description": "Beige canvas pencil pouch with a clean zipper edge.",
+      "location": "Reception",
+      "identifying_details": null,
+      "event_date": "2026-10-15",
+      "image_path": "images/13011.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11012,
+      "report_type": "lost",
+      "name": "Laboratory safety goggles",
+      "description": "Clear safety goggles with a lime elastic strap and a cloudy patch over the right edge.",
+      "location": "Science Building",
+      "identifying_details": "cloudy-edge",
+      "event_date": "2026-10-15",
+      "image_path": "images/11012.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12012,
+      "report_type": "found",
+      "name": "Recovered goggles",
+      "description": "Transparent lab eyewear, green band, small fogged area at the far-right lens.",
+      "location": "Science Building",
+      "identifying_details": "cloudy-edge",
+      "event_date": "2026-10-16",
+      "image_path": "images/12012.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13012,
+      "report_type": "found",
+      "name": "Recovered goggles",
+      "description": "Clear safety goggles with a lime strap and fully transparent lenses.",
+      "location": "Science Building",
+      "identifying_details": null,
+      "event_date": "2026-10-16",
+      "image_path": "images/13012.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11013,
+      "report_type": "lost",
+      "name": "Canvas tote bag",
+      "description": "Natural canvas tote with a sewn orange hexagon patch below the left handle.",
+      "location": "Student Center",
+      "identifying_details": "hex-patch",
+      "event_date": "2026-10-16",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_both_images"
+      ],
+      "category": "Bags",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12013,
+      "report_type": "found",
+      "name": "Recovered tote",
+      "description": "Unbleached cloth carry bag bearing an orange six-sided badge near one strap.",
+      "location": "Student Center",
+      "identifying_details": "hex-patch",
+      "event_date": "2026-10-17",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_both_images"
+      ],
+      "category": "Bags",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13013,
+      "report_type": "found",
+      "name": "Recovered tote",
+      "description": "Plain natural canvas tote with no patch.",
+      "location": "Student Center",
+      "identifying_details": null,
+      "event_date": "2026-10-17",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_both_images"
+      ],
+      "category": "Bags",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11014,
+      "report_type": "lost",
+      "name": "Insulated travel mug",
+      "description": "Copper travel mug with a navy sliding lid and shallow groove around its base.",
+      "location": "Cafeteria",
+      "identifying_details": "base-groove",
+      "event_date": "2026-10-17",
+      "image_path": "images/11014.png",
+      "challenge_tags": [
+        "similar_item",
+        "date_gap"
+      ],
+      "category": "Water Bottles",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12014,
+      "report_type": "found",
+      "name": "Recovered mug",
+      "description": "Bronze thermal cup, dark-blue slider top, narrow ring indentation near the bottom.",
+      "location": "Cafeteria",
+      "identifying_details": "base-groove",
+      "event_date": "2026-09-20",
+      "image_path": "images/12014.png",
+      "challenge_tags": [
+        "similar_item",
+        "date_gap"
+      ],
+      "category": "Water Bottles",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13014,
+      "report_type": "found",
+      "name": "Recovered mug",
+      "description": "Copper travel mug with a black lid and smooth base.",
+      "location": "Cafeteria",
+      "identifying_details": null,
+      "event_date": "2026-10-18",
+      "image_path": "images/13014.png",
+      "challenge_tags": [
+        "similar_item",
+        "date_gap"
+      ],
+      "category": "Water Bottles",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11015,
+      "report_type": "lost",
+      "name": "Tablet stylus",
+      "description": "White tablet pen with a mint rubber sleeve and a flattened replacement nib.",
+      "location": "Engineering Building",
+      "identifying_details": "flat-nib",
+      "event_date": "2026-10-18",
+      "image_path": "images/11015.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12015,
+      "report_type": "found",
+      "name": "Recovered stylus",
+      "description": "Pale digital stylus in a light-green grip; substitute tip is visibly worn flat.",
+      "location": "Engineering Building",
+      "identifying_details": "flat-nib",
+      "event_date": "2026-10-19",
+      "image_path": "images/12015.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13015,
+      "report_type": "found",
+      "name": "Recovered stylus",
+      "description": "White tablet stylus with a mint sleeve and pointed original nib.",
+      "location": "Engineering Building",
+      "identifying_details": null,
+      "event_date": "2026-10-19",
+      "image_path": "images/13015.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 11016,
+      "report_type": "lost",
+      "name": "Conference name badge",
+      "description": "Guest conference badge in a blue-edged holder clipped to a yellow woven cord.",
+      "location": "Lecture Hall",
+      "identifying_details": "yellow-cord",
+      "event_date": "2026-10-19",
+      "image_path": null,
+      "challenge_tags": [
+        "ambiguous_description",
+        "date_gap",
+        "location_conflict",
+        "missing_both_images"
+      ],
+      "category": "Student ID / Cards",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 12016,
+      "report_type": "found",
+      "name": "Recovered badge",
+      "description": "Visitor event pass inside a navy-border sleeve on a golden fabric neck cord.",
+      "location": "Lecture Hall",
+      "identifying_details": "yellow-cord",
+      "event_date": "2026-09-21",
+      "image_path": null,
+      "challenge_tags": [
+        "ambiguous_description",
+        "date_gap",
+        "location_conflict",
+        "missing_both_images"
+      ],
+      "category": "Student ID / Cards",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 13016,
+      "report_type": "found",
+      "name": "Recovered badge",
+      "description": "Guest conference badge in a blue-edged holder on a black cord, found four weeks earlier.",
+      "location": "Main Library",
+      "identifying_details": null,
+      "event_date": "2026-09-21",
+      "image_path": null,
+      "challenge_tags": [
+        "ambiguous_description",
+        "date_gap",
+        "location_conflict",
+        "missing_both_images"
+      ],
+      "category": "Student ID / Cards",
+      "location_detail": null,
+      "handover_location": null
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "split": "test",
+  "qrels": {
+    "11001": {
+      "relevant": [
+        12001
+      ],
+      "hard_negatives": [
+        13001
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ]
+    },
+    "11002": {
+      "relevant": [
+        12002
+      ],
+      "hard_negatives": [
+        13002
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "11003": {
+      "relevant": [
+        12003
+      ],
+      "hard_negatives": [
+        13003
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ]
+    },
+    "11004": {
+      "relevant": [
+        12004
+      ],
+      "hard_negatives": [
+        13004
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ]
+    },
+    "11005": {
+      "relevant": [
+        12005
+      ],
+      "hard_negatives": [
+        13005
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "11006": {
+      "relevant": [
+        12006
+      ],
+      "hard_negatives": [
+        13006
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ]
+    },
+    "11007": {
+      "relevant": [
+        12007
+      ],
+      "hard_negatives": [
+        13007
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "missing_lost_image"
+      ]
+    },
+    "11008": {
+      "relevant": [
+        12008
+      ],
+      "hard_negatives": [
+        13008
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "11009": {
+      "relevant": [
+        12009
+      ],
+      "hard_negatives": [
+        13009
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "category_conflict"
+      ]
+    },
+    "11010": {
+      "relevant": [
+        12010
+      ],
+      "hard_negatives": [
+        13010
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "missing_found_image"
+      ]
+    },
+    "11011": {
+      "relevant": [
+        12011
+      ],
+      "hard_negatives": [
+        13011
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "11012": {
+      "relevant": [
+        12012
+      ],
+      "hard_negatives": [
+        13012
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ]
+    },
+    "11013": {
+      "relevant": [
+        12013
+      ],
+      "hard_negatives": [
+        13013
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "missing_both_images"
+      ]
+    },
+    "11014": {
+      "relevant": [
+        12014
+      ],
+      "hard_negatives": [
+        13014
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "date_gap"
+      ]
+    },
+    "11015": {
+      "relevant": [
+        12015
+      ],
+      "hard_negatives": [
+        13015
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "11016": {
+      "relevant": [
+        12016
+      ],
+      "hard_negatives": [
+        13016
+      ],
+      "challenge_tags": [
+        "ambiguous_description",
+        "date_gap",
+        "location_conflict",
+        "missing_both_images"
+      ]
+    }
+  }
+}

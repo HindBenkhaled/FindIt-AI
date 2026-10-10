@@ -1,0 +1,60 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Runtime state and user content
+data/*.db
+data/*.db-*
+data/*.sqlite*
+data/uploads/
+data/cache/
+
+# Downloaded datasets and model caches
+data/external/
+.cache/
+huggingface/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Logs and generated reports
+*.log
+*.log.*
+test-results/
+playwright-report/
+docs/image_benchmark_failures/
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+!frontend/.env.example
+frontend/test-results/
+frontend/playwright-report/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini

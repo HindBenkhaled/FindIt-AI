@@ -1,0 +1,1205 @@
+{
+  "split": "dev",
+  "reports": [
+    {
+      "id": 1001,
+      "report_type": "lost",
+      "name": "Black AirPods Pro",
+      "description": "Black AirPods Pro case with a tiny white scratch near the front-right corner.",
+      "location": "Main Library",
+      "identifying_details": "scratch",
+      "event_date": "2026-09-03",
+      "image_path": "images/1001.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2001,
+      "report_type": "found",
+      "name": "Found earbuds",
+      "description": "Dark Apple wireless earbuds in a black charging case; a small pale nick sits by the right edge.",
+      "location": "Main Library",
+      "identifying_details": "scratch",
+      "event_date": "2026-09-04",
+      "image_path": "images/2001.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3001,
+      "report_type": "found",
+      "name": "Found earbuds",
+      "description": "Black AirPods Pro case in clean condition with no visible marks.",
+      "location": "Main Library",
+      "identifying_details": null,
+      "event_date": "2026-09-04",
+      "image_path": "images/3001.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1002,
+      "report_type": "lost",
+      "name": "White wireless earbuds",
+      "description": "White earbuds in a cream silicone case with a blue carabiner.",
+      "location": "Student Center",
+      "identifying_details": "clip",
+      "event_date": "2026-09-06",
+      "image_path": "images/1002.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2002,
+      "report_type": "found",
+      "name": "Found earbuds",
+      "description": "Pale wireless earphones with an off-white cover and blue clip attached.",
+      "location": "Student Center",
+      "identifying_details": "clip",
+      "event_date": "2026-09-06",
+      "image_path": "images/2002.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3002,
+      "report_type": "found",
+      "name": "Found earbuds",
+      "description": "White earbuds in a plain hard case without a clip.",
+      "location": "Main Library",
+      "identifying_details": null,
+      "event_date": "2026-09-06",
+      "image_path": "images/3002.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1003,
+      "report_type": "lost",
+      "name": "Navy backpack",
+      "description": "Navy backpack with mustard front pocket and a silver zipper pull.",
+      "location": "Student Center",
+      "identifying_details": "yellow-pocket",
+      "event_date": "2026-09-08",
+      "image_path": "images/1003.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Bags",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2003,
+      "report_type": "found",
+      "name": "Found backpack",
+      "description": "Dark blue school bag with a yellow outer pouch and metallic zip tab.",
+      "location": "Student Center",
+      "identifying_details": "yellow-pocket",
+      "event_date": "2026-09-09",
+      "image_path": "images/2003.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Bags",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3003,
+      "report_type": "found",
+      "name": "Found backpack",
+      "description": "Navy backpack with a yellow pocket but a red fabric zipper pull.",
+      "location": "Student Center",
+      "identifying_details": null,
+      "event_date": "2026-09-09",
+      "image_path": "images/3003.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Bags",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1004,
+      "report_type": "lost",
+      "name": "Black laptop bag",
+      "description": "Plain black laptop backpack with red fox keychain on the left strap.",
+      "location": "Engineering Building",
+      "identifying_details": "red-charm",
+      "event_date": "2026-09-10",
+      "image_path": "images/1004.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Bags",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2004,
+      "report_type": "found",
+      "name": "Found backpack",
+      "description": "Dark computer rucksack carrying a small crimson animal charm.",
+      "location": "Engineering Building",
+      "identifying_details": "red-charm",
+      "event_date": "2026-09-11",
+      "image_path": "images/2004.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Bags",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3004,
+      "report_type": "found",
+      "name": "Found backpack",
+      "description": "Black laptop backpack with no keychain and a reflective strip.",
+      "location": "Engineering Building",
+      "identifying_details": null,
+      "event_date": "2026-09-11",
+      "image_path": "images/3004.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Bags",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1005,
+      "report_type": "lost",
+      "name": "USB-C laptop charger",
+      "description": "White 65 watt USB-C charging brick with grey tape around the cable.",
+      "location": "Computer Lab",
+      "identifying_details": "tape",
+      "event_date": "2026-09-12",
+      "image_path": "images/1005.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2005,
+      "report_type": "found",
+      "name": "Found charger",
+      "description": "Pale 65W type-C power adapter; lead has a grey taped section.",
+      "location": "Computer Lab",
+      "identifying_details": "tape",
+      "event_date": "2026-09-13",
+      "image_path": "images/2005.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3005,
+      "report_type": "found",
+      "name": "Found charger",
+      "description": "White USB-C charger with the same size brick but an unmarked cable.",
+      "location": "Computer Lab",
+      "identifying_details": null,
+      "event_date": "2026-09-13",
+      "image_path": "images/3005.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1006,
+      "report_type": "lost",
+      "name": "Braided phone cable",
+      "description": "Two metre black braided Lightning cable with a bent connector.",
+      "location": "Lecture Hall",
+      "identifying_details": "bent-tip",
+      "event_date": "2026-09-12",
+      "image_path": "images/1006.png",
+      "challenge_tags": [
+        "similar_item",
+        "category_conflict"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2006,
+      "report_type": "found",
+      "name": "Found cable",
+      "description": "Long woven dark phone lead; Lightning tip is slightly crooked.",
+      "location": "Lecture Hall",
+      "identifying_details": "bent-tip",
+      "event_date": "2026-09-14",
+      "image_path": "images/2006.png",
+      "challenge_tags": [
+        "similar_item",
+        "category_conflict"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3006,
+      "report_type": "found",
+      "name": "Found cable",
+      "description": "Two metre black braided USB-C cable in good condition.",
+      "location": "Lecture Hall",
+      "identifying_details": null,
+      "event_date": "2026-09-14",
+      "image_path": "images/3006.png",
+      "challenge_tags": [
+        "similar_item",
+        "category_conflict"
+      ],
+      "category": "Chargers / Accessories",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1007,
+      "report_type": "lost",
+      "name": "Three campus keys",
+      "description": "Three silver keys on one ring with a round blue plastic fob.",
+      "location": "Parking",
+      "identifying_details": "round-fob",
+      "event_date": "2026-09-15",
+      "image_path": "images/1007.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Keys",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2007,
+      "report_type": "found",
+      "name": "Found keys",
+      "description": "Keyring containing three metal keys and a circular blue tag.",
+      "location": "Parking",
+      "identifying_details": "round-fob",
+      "event_date": "2026-09-15",
+      "image_path": "images/2007.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Keys",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3007,
+      "report_type": "found",
+      "name": "Found keys",
+      "description": "Three silver keys with a square blue fob.",
+      "location": "Parking",
+      "identifying_details": null,
+      "event_date": "2026-09-15",
+      "image_path": "images/3007.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Keys",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1008,
+      "report_type": "lost",
+      "name": "Keys on red lanyard",
+      "description": "Two keys and a small brass key on a faded red university lanyard.",
+      "location": "Science Building",
+      "identifying_details": "brass-key",
+      "event_date": "2026-09-16",
+      "image_path": "images/1008.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Keys",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2008,
+      "report_type": "found",
+      "name": "Found keys",
+      "description": "Pair of silver keys plus a brass one attached to a worn crimson neck strap.",
+      "location": "Science Building",
+      "identifying_details": "brass-key",
+      "event_date": "2026-09-17",
+      "image_path": "images/2008.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Keys",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3008,
+      "report_type": "found",
+      "name": "Found keys",
+      "description": "Two keys on a new bright red lanyard without a brass key.",
+      "location": "Science Building",
+      "identifying_details": null,
+      "event_date": "2026-09-17",
+      "image_path": "images/3008.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Keys",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1009,
+      "report_type": "lost",
+      "name": "Black leather wallet",
+      "description": "Black folding wallet with red stitching and a small crease inside.",
+      "location": "Cafeteria",
+      "identifying_details": "red-stitch",
+      "event_date": "2026-09-18",
+      "image_path": "images/1009.png",
+      "challenge_tags": [
+        "similar_item",
+        "date_gap"
+      ],
+      "category": "Wallets",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2009,
+      "report_type": "found",
+      "name": "Found wallet",
+      "description": "Dark leather billfold edged in crimson thread with an inner fold mark.",
+      "location": "Cafeteria",
+      "identifying_details": "red-stitch",
+      "event_date": "2026-09-19",
+      "image_path": "images/2009.png",
+      "challenge_tags": [
+        "similar_item",
+        "date_gap"
+      ],
+      "category": "Wallets",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3009,
+      "report_type": "found",
+      "name": "Found wallet",
+      "description": "Black wallet with red stitching and no crease, found weeks earlier.",
+      "location": "Cafeteria",
+      "identifying_details": null,
+      "event_date": "2026-08-25",
+      "image_path": "images/3009.png",
+      "challenge_tags": [
+        "similar_item",
+        "date_gap"
+      ],
+      "category": "Wallets",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1010,
+      "report_type": "lost",
+      "name": "Brown card holder",
+      "description": "Slim brown card holder with four slots and initials stamped inside.",
+      "location": "Student Services",
+      "identifying_details": "initials",
+      "event_date": "2026-09-19",
+      "image_path": "images/1010.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Wallets",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2010,
+      "report_type": "found",
+      "name": "Found wallet",
+      "description": "Tan narrow card case with four pockets and small pressed initials.",
+      "location": "Student Services",
+      "identifying_details": "initials",
+      "event_date": "2026-09-20",
+      "image_path": "images/2010.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Wallets",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3010,
+      "report_type": "found",
+      "name": "Found wallet",
+      "description": "Brown four-slot card holder with no stamped letters.",
+      "location": "Student Services",
+      "identifying_details": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/3010.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Wallets",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1011,
+      "report_type": "lost",
+      "name": "Student ID card",
+      "description": "Campus ID in a clear holder on a dark green lanyard.",
+      "location": "Main Library",
+      "identifying_details": "green-strap",
+      "event_date": "2026-09-20",
+      "image_path": "images/1011.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict",
+        "ambiguous_description"
+      ],
+      "category": "Student ID / Cards",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2011,
+      "report_type": "found",
+      "name": "Found card",
+      "description": "University card inside a transparent sleeve attached to a forest-green strap.",
+      "location": "Main Library",
+      "identifying_details": "green-strap",
+      "event_date": "2026-09-20",
+      "image_path": "images/2011.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict",
+        "ambiguous_description"
+      ],
+      "category": "Student ID / Cards",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3011,
+      "report_type": "found",
+      "name": "Found card",
+      "description": "Campus card in a clear holder on a black lanyard.",
+      "location": "Student Center",
+      "identifying_details": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/3011.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict",
+        "ambiguous_description"
+      ],
+      "category": "Student ID / Cards",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1012,
+      "report_type": "lost",
+      "name": "Blue access card",
+      "description": "Plain blue access card inside a frosted sleeve with one cracked corner.",
+      "location": "Engineering Building",
+      "identifying_details": "cracked-sleeve",
+      "event_date": "2026-09-21",
+      "image_path": "images/1012.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Student ID / Cards",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2012,
+      "report_type": "found",
+      "name": "Found card",
+      "description": "Blue campus entry card in a cloudy holder; sleeve corner is split.",
+      "location": "Engineering Building",
+      "identifying_details": "cracked-sleeve",
+      "event_date": "2026-09-22",
+      "image_path": "images/2012.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Student ID / Cards",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3012,
+      "report_type": "found",
+      "name": "Found card",
+      "description": "Blue access card in an undamaged frosted holder.",
+      "location": "Engineering Building",
+      "identifying_details": null,
+      "event_date": "2026-09-22",
+      "image_path": "images/3012.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Student ID / Cards",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1013,
+      "report_type": "lost",
+      "name": "Round reading glasses",
+      "description": "Round tortoiseshell glasses with a loose left hinge.",
+      "location": "Reception",
+      "identifying_details": "loose-hinge",
+      "event_date": "2026-09-23",
+      "image_path": "images/1013.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Glasses",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2013,
+      "report_type": "found",
+      "name": "Found glasses",
+      "description": "Circular brown mottled spectacles; left arm hinge wiggles.",
+      "location": "Reception",
+      "identifying_details": "loose-hinge",
+      "event_date": "2026-09-23",
+      "image_path": "images/2013.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Glasses",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3013,
+      "report_type": "found",
+      "name": "Found glasses",
+      "description": "Round tortoiseshell glasses with firm hinges.",
+      "location": "Reception",
+      "identifying_details": null,
+      "event_date": "2026-09-23",
+      "image_path": "images/3013.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Glasses",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1014,
+      "report_type": "lost",
+      "name": "Black rectangular glasses",
+      "description": "Black rectangular glasses in a purple zip case.",
+      "location": "Lecture Hall",
+      "identifying_details": "purple-case",
+      "event_date": "2026-09-23",
+      "image_path": "images/1014.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Glasses",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2014,
+      "report_type": "found",
+      "name": "Found glasses",
+      "description": "Dark square-frame spectacles stored in a violet zipped holder.",
+      "location": "Lecture Hall",
+      "identifying_details": "purple-case",
+      "event_date": "2026-09-24",
+      "image_path": "images/2014.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Glasses",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3014,
+      "report_type": "found",
+      "name": "Found glasses",
+      "description": "Black rectangular glasses in a plain black case.",
+      "location": "Lecture Hall",
+      "identifying_details": null,
+      "event_date": "2026-09-24",
+      "image_path": "images/3014.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Glasses",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1015,
+      "report_type": "lost",
+      "name": "Blue metal bottle",
+      "description": "Blue steel bottle with a dent near the base and one astronomy sticker.",
+      "location": "Gym",
+      "identifying_details": "dent-sticker",
+      "event_date": "2026-09-24",
+      "image_path": "images/1015.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Water Bottles",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2015,
+      "report_type": "found",
+      "name": "Found bottle",
+      "description": "Metallic navy flask, lower edge dented, with a single planet decal.",
+      "location": "Gym",
+      "identifying_details": "dent-sticker",
+      "event_date": "2026-09-25",
+      "image_path": "images/2015.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Water Bottles",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3015,
+      "report_type": "found",
+      "name": "Found bottle",
+      "description": "Blue steel bottle with several stickers and no dent.",
+      "location": "Gym",
+      "identifying_details": null,
+      "event_date": "2026-09-25",
+      "image_path": "images/3015.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Water Bottles",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1016,
+      "report_type": "lost",
+      "name": "Black water bottle",
+      "description": "Matte black one-litre bottle with orange cap and scratched handle.",
+      "location": "Cafeteria",
+      "identifying_details": "orange-cap",
+      "event_date": "2026-09-25",
+      "image_path": "images/1016.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Water Bottles",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2016,
+      "report_type": "found",
+      "name": "Found bottle",
+      "description": "Large dark flask with a bright orange lid and scuffed carry loop.",
+      "location": "Cafeteria",
+      "identifying_details": "orange-cap",
+      "event_date": "2026-09-25",
+      "image_path": "images/2016.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Water Bottles",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3016,
+      "report_type": "found",
+      "name": "Found bottle",
+      "description": "Matte black bottle with orange cap and an intact handle.",
+      "location": "Gym",
+      "identifying_details": null,
+      "event_date": "2026-09-25",
+      "image_path": "images/3016.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Water Bottles",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1017,
+      "report_type": "lost",
+      "name": "Calculus textbook",
+      "description": "Blue calculus textbook, third edition, with handwritten notes on chapter four.",
+      "location": "Main Library",
+      "identifying_details": "chapter-notes",
+      "event_date": "2026-09-26",
+      "image_path": "images/1017.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Books / Notes",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2017,
+      "report_type": "found",
+      "name": "Found book",
+      "description": "Third-edition blue calculus book containing pencil annotations in chapter 4.",
+      "location": "Main Library",
+      "identifying_details": "chapter-notes",
+      "event_date": "2026-09-27",
+      "image_path": "images/2017.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Books / Notes",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3017,
+      "report_type": "found",
+      "name": "Found book",
+      "description": "Same blue calculus title, second edition, with no notes.",
+      "location": "Main Library",
+      "identifying_details": null,
+      "event_date": "2026-09-27",
+      "image_path": "images/3017.png",
+      "challenge_tags": [
+        "similar_item"
+      ],
+      "category": "Books / Notes",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1018,
+      "report_type": "lost",
+      "name": "Green spiral notebook",
+      "description": "A5 green spiral notebook with a torn back cover and statistics notes.",
+      "location": "Science Building",
+      "identifying_details": "torn-cover",
+      "event_date": "2026-09-27",
+      "image_path": "images/1018.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Books / Notes",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2018,
+      "report_type": "found",
+      "name": "Found notebook",
+      "description": "Small green wire-bound pad, back cover ripped, filled with statistics writing.",
+      "location": "Science Building",
+      "identifying_details": "torn-cover",
+      "event_date": "2026-09-28",
+      "image_path": "images/2018.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Books / Notes",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3018,
+      "report_type": "found",
+      "name": "Found notebook",
+      "description": "A5 green spiral notebook with an intact cover and chemistry notes.",
+      "location": "Science Building",
+      "identifying_details": null,
+      "event_date": "2026-09-28",
+      "image_path": "images/3018.png",
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ],
+      "category": "Books / Notes",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1019,
+      "report_type": "lost",
+      "name": "Grey campus hoodie",
+      "description": "Grey university hoodie with blue ink mark on the right cuff.",
+      "location": "Student Center",
+      "identifying_details": "ink-cuff",
+      "event_date": "2026-09-28",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_lost_image"
+      ],
+      "category": "Clothing",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2019,
+      "report_type": "found",
+      "name": "Found hoodie",
+      "description": "Heather-grey campus sweatshirt; small navy stain on right sleeve cuff.",
+      "location": "Student Center",
+      "identifying_details": "ink-cuff",
+      "event_date": "2026-09-29",
+      "image_path": "images/2019.png",
+      "challenge_tags": [
+        "similar_item",
+        "missing_lost_image"
+      ],
+      "category": "Clothing",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3019,
+      "report_type": "found",
+      "name": "Found hoodie",
+      "description": "Grey university hoodie with clean cuffs.",
+      "location": "Student Center",
+      "identifying_details": null,
+      "event_date": "2026-09-29",
+      "image_path": "images/3019.png",
+      "challenge_tags": [
+        "similar_item",
+        "missing_lost_image"
+      ],
+      "category": "Clothing",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1020,
+      "report_type": "lost",
+      "name": "Red striped scarf",
+      "description": "Red wool scarf with narrow white stripes and one frayed end.",
+      "location": "Student Services",
+      "identifying_details": "frayed-end",
+      "event_date": "2026-09-29",
+      "image_path": "images/1020.png",
+      "challenge_tags": [
+        "similar_item",
+        "missing_found_image"
+      ],
+      "category": "Clothing",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2020,
+      "report_type": "found",
+      "name": "Found scarf",
+      "description": "Crimson knitted neck scarf with thin pale bands and a worn edge.",
+      "location": "Student Services",
+      "identifying_details": "frayed-end",
+      "event_date": "2026-09-30",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_found_image"
+      ],
+      "category": "Clothing",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3020,
+      "report_type": "found",
+      "name": "Found scarf",
+      "description": "Red and white striped scarf with both ends intact.",
+      "location": "Student Services",
+      "identifying_details": null,
+      "event_date": "2026-09-30",
+      "image_path": "images/3020.png",
+      "challenge_tags": [
+        "similar_item",
+        "missing_found_image"
+      ],
+      "category": "Clothing",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1021,
+      "report_type": "lost",
+      "name": "Phone in green case",
+      "description": "Phone in a dark green case with a small white star sticker.",
+      "location": "Lecture Hall",
+      "identifying_details": "star",
+      "event_date": "2026-09-30",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_both_images"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2021,
+      "report_type": "found",
+      "name": "Found phone",
+      "description": "Smartphone protected by a forest-coloured cover carrying one pale star decal.",
+      "location": "Lecture Hall",
+      "identifying_details": "star",
+      "event_date": "2026-10-01",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_both_images"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3021,
+      "report_type": "found",
+      "name": "Found phone",
+      "description": "Phone in a dark green case without any sticker.",
+      "location": "Lecture Hall",
+      "identifying_details": null,
+      "event_date": "2026-10-01",
+      "image_path": null,
+      "challenge_tags": [
+        "similar_item",
+        "missing_both_images"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1022,
+      "report_type": "lost",
+      "name": "Silver wristwatch",
+      "description": "Round silver watch with black leather strap and a faint crack at six o'clock.",
+      "location": "Science Building",
+      "identifying_details": "dial-crack",
+      "event_date": "2026-10-01",
+      "image_path": "images/1022.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2022,
+      "report_type": "found",
+      "name": "Found watch",
+      "description": "Analog silver timepiece on a dark leather band; hairline split below the dial.",
+      "location": "Science Building",
+      "identifying_details": "dial-crack",
+      "event_date": "2026-10-02",
+      "image_path": "images/2022.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3022,
+      "report_type": "found",
+      "name": "Found watch",
+      "description": "Round silver watch with black strap and an uncracked face.",
+      "location": "Reception",
+      "identifying_details": null,
+      "event_date": "2026-10-02",
+      "image_path": "images/3022.png",
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1023,
+      "report_type": "lost",
+      "name": "Navy umbrella",
+      "description": "Compact navy umbrella with a curved wooden handle and loose wrist strap.",
+      "location": "Reception",
+      "identifying_details": "wood-handle",
+      "event_date": "2026-10-01",
+      "image_path": null,
+      "challenge_tags": [
+        "ambiguous_description",
+        "missing_both_images"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2023,
+      "report_type": "found",
+      "name": "Found umbrella",
+      "description": "Small dark-blue rain umbrella, bent wood grip, slack carrying loop.",
+      "location": "Reception",
+      "identifying_details": "wood-handle",
+      "event_date": "2026-10-02",
+      "image_path": null,
+      "challenge_tags": [
+        "ambiguous_description",
+        "missing_both_images"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3023,
+      "report_type": "found",
+      "name": "Found umbrella",
+      "description": "Compact navy umbrella with a straight plastic handle.",
+      "location": "Reception",
+      "identifying_details": null,
+      "event_date": "2026-10-02",
+      "image_path": null,
+      "challenge_tags": [
+        "ambiguous_description",
+        "missing_both_images"
+      ],
+      "category": "Other",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 1024,
+      "report_type": "lost",
+      "name": "Black earbuds",
+      "description": "Black wireless earbuds in a black case; unsure of brand, tiny chip on lid.",
+      "location": "Main Library",
+      "identifying_details": "lid-chip",
+      "event_date": "2026-10-02",
+      "image_path": "images/1024.png",
+      "challenge_tags": [
+        "ambiguous_description",
+        "date_gap",
+        "similar_item"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 2024,
+      "report_type": "found",
+      "name": "Found earbuds",
+      "description": "Dark unbranded earphones in a matching case with a minute nick on top.",
+      "location": "Main Library",
+      "identifying_details": "lid-chip",
+      "event_date": "2026-10-03",
+      "image_path": "images/2024.png",
+      "challenge_tags": [
+        "ambiguous_description",
+        "date_gap",
+        "similar_item"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    },
+    {
+      "id": 3024,
+      "report_type": "found",
+      "name": "Found earbuds",
+      "description": "Black wireless earbuds in an identical-looking case found three weeks earlier.",
+      "location": "Main Library",
+      "identifying_details": null,
+      "event_date": "2026-09-11",
+      "image_path": "images/3024.png",
+      "challenge_tags": [
+        "ambiguous_description",
+        "date_gap",
+        "similar_item"
+      ],
+      "category": "Electronics",
+      "location_detail": null,
+      "handover_location": null
+    }
+  ]
+}

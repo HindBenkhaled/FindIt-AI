@@ -1,0 +1,29 @@
+{
+  "name": "coil100_v1",
+  "dataset": "Columbia Object Image Library (COIL-100)",
+  "objects": 100,
+  "query_count": 200,
+  "gallery_size_per_setting": 200,
+  "seed": null,
+  "query_angles": [
+    0,
+    180
+  ],
+  "gallery_angles": {
+    "easy": [
+      5,
+      185
+    ],
+    "hard": [
+      90,
+      270
+    ]
+  },
+  "selection": "Fixed angles; two queries and two gallery views per physical object.",
+  "self_exclusion": "Query angles never occur in either gallery.",
+  "relevance": "Exact physical object identity only; two relevant gallery images per query.",
+  "protocol_hashes": {
+    "easy": "1ba0cab21e452cc6ea2111a07222e170a36cc5bd8aeb1062c7623c47a7fd29c4",
+    "hard": "14b40bbb86e58dda775d9fe78752e1d4a25066b27b9186cd334dfdc2c9c73f67"
+  }
+}

@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "obj001_view090",
+    "object_id": 1,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj1__90.png"
+  },
+  {
+    "id": "obj001_view270",
+    "object_id": 1,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj1__270.png"
+  },
+  {
+    "id": "obj002_view090",
+    "object_id": 2,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj2__90.png"
+  },
+  {
+    "id": "obj002_view270",
+    "object_id": 2,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj2__270.png"
+  },
+  {
+    "id": "obj003_view090",
+    "object_id": 3,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj3__90.png"
+  },
+  {
+    "id": "obj003_view270",
+    "object_id": 3,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj3__270.png"
+  },
+  {
+    "id": "obj004_view090",
+    "object_id": 4,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj4__90.png"
+  },
+  {
+    "id": "obj004_view270",
+    "object_id": 4,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj4__270.png"
+  },
+  {
+    "id": "obj005_view090",
+    "object_id": 5,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj5__90.png"
+  },
+  {
+    "id": "obj005_view270",
+    "object_id": 5,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj5__270.png"
+  },
+  {
+    "id": "obj006_view090",
+    "object_id": 6,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj6__90.png"
+  },
+  {
+    "id": "obj006_view270",
+    "object_id": 6,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj6__270.png"
+  },
+  {
+    "id": "obj007_view090",
+    "object_id": 7,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj7__90.png"
+  },
+  {
+    "id": "obj007_view270",
+    "object_id": 7,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj7__270.png"
+  },
+  {
+    "id": "obj008_view090",
+    "object_id": 8,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj8__90.png"
+  },
+  {
+    "id": "obj008_view270",
+    "object_id": 8,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj8__270.png"
+  },
+  {
+    "id": "obj009_view090",
+    "object_id": 9,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj9__90.png"
+  },
+  {
+    "id": "obj009_view270",
+    "object_id": 9,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj9__270.png"
+  },
+  {
+    "id": "obj010_view090",
+    "object_id": 10,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj10__90.png"
+  },
+  {
+    "id": "obj010_view270",
+    "object_id": 10,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj10__270.png"
+  },
+  {
+    "id": "obj011_view090",
+    "object_id": 11,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj11__90.png"
+  },
+  {
+    "id": "obj011_view270",
+    "object_id": 11,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj11__270.png"
+  },
+  {
+    "id": "obj012_view090",
+    "object_id": 12,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj12__90.png"
+  },
+  {
+    "id": "obj012_view270",
+    "object_id": 12,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj12__270.png"
+  },
+  {
+    "id": "obj013_view090",
+    "object_id": 13,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj13__90.png"
+  },
+  {
+    "id": "obj013_view270",
+    "object_id": 13,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj13__270.png"
+  },
+  {
+    "id": "obj014_view090",
+    "object_id": 14,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj14__90.png"
+  },
+  {
+    "id": "obj014_view270",
+    "object_id": 14,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj14__270.png"
+  },
+  {
+    "id": "obj015_view090",
+    "object_id": 15,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj15__90.png"
+  },
+  {
+    "id": "obj015_view270",
+    "object_id": 15,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj15__270.png"
+  },
+  {
+    "id": "obj016_view090",
+    "object_id": 16,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj16__90.png"
+  },
+  {
+    "id": "obj016_view270",
+    "object_id": 16,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj16__270.png"
+  },
+  {
+    "id": "obj017_view090",
+    "object_id": 17,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj17__90.png"
+  },
+  {
+    "id": "obj017_view270",
+    "object_id": 17,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj17__270.png"
+  },
+  {
+    "id": "obj018_view090",
+    "object_id": 18,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj18__90.png"
+  },
+  {
+    "id": "obj018_view270",
+    "object_id": 18,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj18__270.png"
+  },
+  {
+    "id": "obj019_view090",
+    "object_id": 19,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj19__90.png"
+  },
+  {
+    "id": "obj019_view270",
+    "object_id": 19,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj19__270.png"
+  },
+  {
+    "id": "obj020_view090",
+    "object_id": 20,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj20__90.png"
+  },
+  {
+    "id": "obj020_view270",
+    "object_id": 20,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj20__270.png"
+  },
+  {
+    "id": "obj021_view090",
+    "object_id": 21,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj21__90.png"
+  },
+  {
+    "id": "obj021_view270",
+    "object_id": 21,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj21__270.png"
+  },
+  {
+    "id": "obj022_view090",
+    "object_id": 22,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj22__90.png"
+  },
+  {
+    "id": "obj022_view270",
+    "object_id": 22,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj22__270.png"
+  },
+  {
+    "id": "obj023_view090",
+    "object_id": 23,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj23__90.png"
+  },
+  {
+    "id": "obj023_view270",
+    "object_id": 23,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj23__270.png"
+  },
+  {
+    "id": "obj024_view090",
+    "object_id": 24,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj24__90.png"
+  },
+  {
+    "id": "obj024_view270",
+    "object_id": 24,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj24__270.png"
+  },
+  {
+    "id": "obj025_view090",
+    "object_id": 25,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj25__90.png"
+  },
+  {
+    "id": "obj025_view270",
+    "object_id": 25,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj25__270.png"
+  },
+  {
+    "id": "obj026_view090",
+    "object_id": 26,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj26__90.png"
+  },
+  {
+    "id": "obj026_view270",
+    "object_id": 26,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj26__270.png"
+  },
+  {
+    "id": "obj027_view090",
+    "object_id": 27,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj27__90.png"
+  },
+  {
+    "id": "obj027_view270",
+    "object_id": 27,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj27__270.png"
+  },
+  {
+    "id": "obj028_view090",
+    "object_id": 28,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj28__90.png"
+  },
+  {
+    "id": "obj028_view270",
+    "object_id": 28,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj28__270.png"
+  },
+  {
+    "id": "obj029_view090",
+    "object_id": 29,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj29__90.png"
+  },
+  {
+    "id": "obj029_view270",
+    "object_id": 29,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj29__270.png"
+  },
+  {
+    "id": "obj030_view090",
+    "object_id": 30,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj30__90.png"
+  },
+  {
+    "id": "obj030_view270",
+    "object_id": 30,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj30__270.png"
+  },
+  {
+    "id": "obj031_view090",
+    "object_id": 31,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj31__90.png"
+  },
+  {
+    "id": "obj031_view270",
+    "object_id": 31,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj31__270.png"
+  },
+  {
+    "id": "obj032_view090",
+    "object_id": 32,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj32__90.png"
+  },
+  {
+    "id": "obj032_view270",
+    "object_id": 32,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj32__270.png"
+  },
+  {
+    "id": "obj033_view090",
+    "object_id": 33,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj33__90.png"
+  },
+  {
+    "id": "obj033_view270",
+    "object_id": 33,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj33__270.png"
+  },
+  {
+    "id": "obj034_view090",
+    "object_id": 34,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj34__90.png"
+  },
+  {
+    "id": "obj034_view270",
+    "object_id": 34,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj34__270.png"
+  },
+  {
+    "id": "obj035_view090",
+    "object_id": 35,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj35__90.png"
+  },
+  {
+    "id": "obj035_view270",
+    "object_id": 35,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj35__270.png"
+  },
+  {
+    "id": "obj036_view090",
+    "object_id": 36,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj36__90.png"
+  },
+  {
+    "id": "obj036_view270",
+    "object_id": 36,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj36__270.png"
+  },
+  {
+    "id": "obj037_view090",
+    "object_id": 37,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj37__90.png"
+  },
+  {
+    "id": "obj037_view270",
+    "object_id": 37,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj37__270.png"
+  },
+  {
+    "id": "obj038_view090",
+    "object_id": 38,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj38__90.png"
+  },
+  {
+    "id": "obj038_view270",
+    "object_id": 38,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj38__270.png"
+  },
+  {
+    "id": "obj039_view090",
+    "object_id": 39,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj39__90.png"
+  },
+  {
+    "id": "obj039_view270",
+    "object_id": 39,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj39__270.png"
+  },
+  {
+    "id": "obj040_view090",
+    "object_id": 40,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj40__90.png"
+  },
+  {
+    "id": "obj040_view270",
+    "object_id": 40,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj40__270.png"
+  },
+  {
+    "id": "obj041_view090",
+    "object_id": 41,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj41__90.png"
+  },
+  {
+    "id": "obj041_view270",
+    "object_id": 41,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj41__270.png"
+  },
+  {
+    "id": "obj042_view090",
+    "object_id": 42,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj42__90.png"
+  },
+  {
+    "id": "obj042_view270",
+    "object_id": 42,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj42__270.png"
+  },
+  {
+    "id": "obj043_view090",
+    "object_id": 43,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj43__90.png"
+  },
+  {
+    "id": "obj043_view270",
+    "object_id": 43,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj43__270.png"
+  },
+  {
+    "id": "obj044_view090",
+    "object_id": 44,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj44__90.png"
+  },
+  {
+    "id": "obj044_view270",
+    "object_id": 44,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj44__270.png"
+  },
+  {
+    "id": "obj045_view090",
+    "object_id": 45,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj45__90.png"
+  },
+  {
+    "id": "obj045_view270",
+    "object_id": 45,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj45__270.png"
+  },
+  {
+    "id": "obj046_view090",
+    "object_id": 46,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj46__90.png"
+  },
+  {
+    "id": "obj046_view270",
+    "object_id": 46,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj46__270.png"
+  },
+  {
+    "id": "obj047_view090",
+    "object_id": 47,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj47__90.png"
+  },
+  {
+    "id": "obj047_view270",
+    "object_id": 47,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj47__270.png"
+  },
+  {
+    "id": "obj048_view090",
+    "object_id": 48,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj48__90.png"
+  },
+  {
+    "id": "obj048_view270",
+    "object_id": 48,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj48__270.png"
+  },
+  {
+    "id": "obj049_view090",
+    "object_id": 49,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj49__90.png"
+  },
+  {
+    "id": "obj049_view270",
+    "object_id": 49,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj49__270.png"
+  },
+  {
+    "id": "obj050_view090",
+    "object_id": 50,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj50__90.png"
+  },
+  {
+    "id": "obj050_view270",
+    "object_id": 50,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj50__270.png"
+  },
+  {
+    "id": "obj051_view090",
+    "object_id": 51,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj51__90.png"
+  },
+  {
+    "id": "obj051_view270",
+    "object_id": 51,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj51__270.png"
+  },
+  {
+    "id": "obj052_view090",
+    "object_id": 52,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj52__90.png"
+  },
+  {
+    "id": "obj052_view270",
+    "object_id": 52,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj52__270.png"
+  },
+  {
+    "id": "obj053_view090",
+    "object_id": 53,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj53__90.png"
+  },
+  {
+    "id": "obj053_view270",
+    "object_id": 53,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj53__270.png"
+  },
+  {
+    "id": "obj054_view090",
+    "object_id": 54,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj54__90.png"
+  },
+  {
+    "id": "obj054_view270",
+    "object_id": 54,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj54__270.png"
+  },
+  {
+    "id": "obj055_view090",
+    "object_id": 55,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj55__90.png"
+  },
+  {
+    "id": "obj055_view270",
+    "object_id": 55,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj55__270.png"
+  },
+  {
+    "id": "obj056_view090",
+    "object_id": 56,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj56__90.png"
+  },
+  {
+    "id": "obj056_view270",
+    "object_id": 56,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj56__270.png"
+  },
+  {
+    "id": "obj057_view090",
+    "object_id": 57,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj57__90.png"
+  },
+  {
+    "id": "obj057_view270",
+    "object_id": 57,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj57__270.png"
+  },
+  {
+    "id": "obj058_view090",
+    "object_id": 58,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj58__90.png"
+  },
+  {
+    "id": "obj058_view270",
+    "object_id": 58,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj58__270.png"
+  },
+  {
+    "id": "obj059_view090",
+    "object_id": 59,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj59__90.png"
+  },
+  {
+    "id": "obj059_view270",
+    "object_id": 59,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj59__270.png"
+  },
+  {
+    "id": "obj060_view090",
+    "object_id": 60,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj60__90.png"
+  },
+  {
+    "id": "obj060_view270",
+    "object_id": 60,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj60__270.png"
+  },
+  {
+    "id": "obj061_view090",
+    "object_id": 61,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj61__90.png"
+  },
+  {
+    "id": "obj061_view270",
+    "object_id": 61,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj61__270.png"
+  },
+  {
+    "id": "obj062_view090",
+    "object_id": 62,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj62__90.png"
+  },
+  {
+    "id": "obj062_view270",
+    "object_id": 62,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj62__270.png"
+  },
+  {
+    "id": "obj063_view090",
+    "object_id": 63,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj63__90.png"
+  },
+  {
+    "id": "obj063_view270",
+    "object_id": 63,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj63__270.png"
+  },
+  {
+    "id": "obj064_view090",
+    "object_id": 64,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj64__90.png"
+  },
+  {
+    "id": "obj064_view270",
+    "object_id": 64,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj64__270.png"
+  },
+  {
+    "id": "obj065_view090",
+    "object_id": 65,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj65__90.png"
+  },
+  {
+    "id": "obj065_view270",
+    "object_id": 65,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj65__270.png"
+  },
+  {
+    "id": "obj066_view090",
+    "object_id": 66,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj66__90.png"
+  },
+  {
+    "id": "obj066_view270",
+    "object_id": 66,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj66__270.png"
+  },
+  {
+    "id": "obj067_view090",
+    "object_id": 67,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj67__90.png"
+  },
+  {
+    "id": "obj067_view270",
+    "object_id": 67,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj67__270.png"
+  },
+  {
+    "id": "obj068_view090",
+    "object_id": 68,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj68__90.png"
+  },
+  {
+    "id": "obj068_view270",
+    "object_id": 68,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj68__270.png"
+  },
+  {
+    "id": "obj069_view090",
+    "object_id": 69,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj69__90.png"
+  },
+  {
+    "id": "obj069_view270",
+    "object_id": 69,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj69__270.png"
+  },
+  {
+    "id": "obj070_view090",
+    "object_id": 70,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj70__90.png"
+  },
+  {
+    "id": "obj070_view270",
+    "object_id": 70,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj70__270.png"
+  },
+  {
+    "id": "obj071_view090",
+    "object_id": 71,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj71__90.png"
+  },
+  {
+    "id": "obj071_view270",
+    "object_id": 71,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj71__270.png"
+  },
+  {
+    "id": "obj072_view090",
+    "object_id": 72,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj72__90.png"
+  },
+  {
+    "id": "obj072_view270",
+    "object_id": 72,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj72__270.png"
+  },
+  {
+    "id": "obj073_view090",
+    "object_id": 73,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj73__90.png"
+  },
+  {
+    "id": "obj073_view270",
+    "object_id": 73,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj73__270.png"
+  },
+  {
+    "id": "obj074_view090",
+    "object_id": 74,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj74__90.png"
+  },
+  {
+    "id": "obj074_view270",
+    "object_id": 74,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj74__270.png"
+  },
+  {
+    "id": "obj075_view090",
+    "object_id": 75,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj75__90.png"
+  },
+  {
+    "id": "obj075_view270",
+    "object_id": 75,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj75__270.png"
+  },
+  {
+    "id": "obj076_view090",
+    "object_id": 76,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj76__90.png"
+  },
+  {
+    "id": "obj076_view270",
+    "object_id": 76,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj76__270.png"
+  },
+  {
+    "id": "obj077_view090",
+    "object_id": 77,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj77__90.png"
+  },
+  {
+    "id": "obj077_view270",
+    "object_id": 77,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj77__270.png"
+  },
+  {
+    "id": "obj078_view090",
+    "object_id": 78,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj78__90.png"
+  },
+  {
+    "id": "obj078_view270",
+    "object_id": 78,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj78__270.png"
+  },
+  {
+    "id": "obj079_view090",
+    "object_id": 79,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj79__90.png"
+  },
+  {
+    "id": "obj079_view270",
+    "object_id": 79,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj79__270.png"
+  },
+  {
+    "id": "obj080_view090",
+    "object_id": 80,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj80__90.png"
+  },
+  {
+    "id": "obj080_view270",
+    "object_id": 80,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj80__270.png"
+  },
+  {
+    "id": "obj081_view090",
+    "object_id": 81,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj81__90.png"
+  },
+  {
+    "id": "obj081_view270",
+    "object_id": 81,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj81__270.png"
+  },
+  {
+    "id": "obj082_view090",
+    "object_id": 82,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj82__90.png"
+  },
+  {
+    "id": "obj082_view270",
+    "object_id": 82,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj82__270.png"
+  },
+  {
+    "id": "obj083_view090",
+    "object_id": 83,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj83__90.png"
+  },
+  {
+    "id": "obj083_view270",
+    "object_id": 83,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj83__270.png"
+  },
+  {
+    "id": "obj084_view090",
+    "object_id": 84,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj84__90.png"
+  },
+  {
+    "id": "obj084_view270",
+    "object_id": 84,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj84__270.png"
+  },
+  {
+    "id": "obj085_view090",
+    "object_id": 85,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj85__90.png"
+  },
+  {
+    "id": "obj085_view270",
+    "object_id": 85,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj85__270.png"
+  },
+  {
+    "id": "obj086_view090",
+    "object_id": 86,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj86__90.png"
+  },
+  {
+    "id": "obj086_view270",
+    "object_id": 86,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj86__270.png"
+  },
+  {
+    "id": "obj087_view090",
+    "object_id": 87,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj87__90.png"
+  },
+  {
+    "id": "obj087_view270",
+    "object_id": 87,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj87__270.png"
+  },
+  {
+    "id": "obj088_view090",
+    "object_id": 88,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj88__90.png"
+  },
+  {
+    "id": "obj088_view270",
+    "object_id": 88,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj88__270.png"
+  },
+  {
+    "id": "obj089_view090",
+    "object_id": 89,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj89__90.png"
+  },
+  {
+    "id": "obj089_view270",
+    "object_id": 89,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj89__270.png"
+  },
+  {
+    "id": "obj090_view090",
+    "object_id": 90,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj90__90.png"
+  },
+  {
+    "id": "obj090_view270",
+    "object_id": 90,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj90__270.png"
+  },
+  {
+    "id": "obj091_view090",
+    "object_id": 91,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj91__90.png"
+  },
+  {
+    "id": "obj091_view270",
+    "object_id": 91,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj91__270.png"
+  },
+  {
+    "id": "obj092_view090",
+    "object_id": 92,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj92__90.png"
+  },
+  {
+    "id": "obj092_view270",
+    "object_id": 92,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj92__270.png"
+  },
+  {
+    "id": "obj093_view090",
+    "object_id": 93,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj93__90.png"
+  },
+  {
+    "id": "obj093_view270",
+    "object_id": 93,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj93__270.png"
+  },
+  {
+    "id": "obj094_view090",
+    "object_id": 94,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj94__90.png"
+  },
+  {
+    "id": "obj094_view270",
+    "object_id": 94,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj94__270.png"
+  },
+  {
+    "id": "obj095_view090",
+    "object_id": 95,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj95__90.png"
+  },
+  {
+    "id": "obj095_view270",
+    "object_id": 95,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj95__270.png"
+  },
+  {
+    "id": "obj096_view090",
+    "object_id": 96,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj96__90.png"
+  },
+  {
+    "id": "obj096_view270",
+    "object_id": 96,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj96__270.png"
+  },
+  {
+    "id": "obj097_view090",
+    "object_id": 97,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj97__90.png"
+  },
+  {
+    "id": "obj097_view270",
+    "object_id": 97,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj97__270.png"
+  },
+  {
+    "id": "obj098_view090",
+    "object_id": 98,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj98__90.png"
+  },
+  {
+    "id": "obj098_view270",
+    "object_id": 98,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj98__270.png"
+  },
+  {
+    "id": "obj099_view090",
+    "object_id": 99,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj99__90.png"
+  },
+  {
+    "id": "obj099_view270",
+    "object_id": 99,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj99__270.png"
+  },
+  {
+    "id": "obj100_view090",
+    "object_id": 100,
+    "angle": 90,
+    "path": "data/external/coil100/images/obj100__90.png"
+  },
+  {
+    "id": "obj100_view270",
+    "object_id": 100,
+    "angle": 270,
+    "path": "data/external/coil100/images/obj100__270.png"
+  }
+]

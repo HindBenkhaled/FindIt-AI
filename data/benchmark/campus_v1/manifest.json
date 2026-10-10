@@ -1,0 +1,10 @@
+{
+  "benchmark": "findit-campus-v1",
+  "provenance": "Entirely synthetic campus reports and lightweight procedural fixtures.",
+  "development_pairs": 24,
+  "test_pairs": 16,
+  "dev_seed": 4101,
+  "test_status": "frozen",
+  "production_ranker_changed": false,
+  "test_seed": 9107
+}

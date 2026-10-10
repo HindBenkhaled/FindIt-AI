@@ -1,0 +1,37 @@
+{
+  "status": "frozen_before_test_generation",
+  "frozen_at": "2026-10-10T17:23:31.2870636+03:00",
+  "benchmark": "campus_v1",
+  "test_seed": 9107,
+  "text_model": "intfloat/e5-base-v2",
+  "image_model": "google/siglip-base-patch16-224",
+  "weights": {
+    "text": 0.35,
+    "image": 0.30,
+    "location": 0.15,
+    "time": 0.10,
+    "category": 0.10
+  },
+  "retrieval": "exhaustive full candidate scan; no FAISS",
+  "scoring": {
+    "embedding_similarity": "cosine similarity clipped to [0, 1]",
+    "location": "existing location_similarity",
+    "time": "existing time_similarity with 14-day decay and early-found penalty",
+    "category": "existing category_similarity",
+    "missing_data": "omit unavailable signals and renormalize positive remaining weights"
+  },
+  "development_result": {
+    "Recall@1": 0.9583333333333334,
+    "Recall@3": 1.0,
+    "Recall@5": 1.0,
+    "MRR": 0.9791666666666666
+  },
+  "pre_test_hashes": {
+    "src/matching.py": "39713d0d66a9d1f1dbd3a770d40ef92b1aaec3d7d398bfbbbbc35b609a3b83f1",
+    "src/services.py": "2bf04cf652876d75a5f4a6dd4644a7821da8e3dfb977c0a7f311cb64fd84ae89",
+    "selected_candidate.json": "91b9973a2b3edcbe08519ce850352cda4bc00d9e4dfb99e80520a206c76e58b2",
+    "dev/reports.json": "0b1f9467206900a48eaa9912992d04e6d866b12531d8485c7c3f58d5e8bfa446",
+    "dev/qrels.json": "d5749e7acb6fa7eff4fd423aec9bf56983830169d4f078c031442df00cf4bf0a"
+  },
+  "commitment": "Generate the 16-pair test split once, evaluate this stack once, and perform no post-test tuning or test regeneration."
+}

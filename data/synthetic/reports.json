@@ -1,0 +1,402 @@
+{
+  "provenance": "Entirely synthetic reports and procedural illustrations; not real-world evidence.",
+  "seed": 100,
+  "reports": [
+    {
+      "id": 1,
+      "report_type": "lost",
+      "name": "AirPods Pro",
+      "category": "Electronics",
+      "description": "Black Apple earbuds case, white scratch on front.",
+      "location": "Main Library",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/1.png"
+    },
+    {
+      "id": 101,
+      "report_type": "found",
+      "name": "Found earbuds",
+      "category": "Electronics",
+      "description": "Wireless earphones in a dark charging box with a pale mark.",
+      "location": "Main Library",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Wireless earphones in a dark charging box with a pale mark.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-09-21",
+      "image_path": "images/101.png"
+    },
+    {
+      "id": 201,
+      "report_type": "found",
+      "name": "Found earbuds",
+      "category": "Electronics",
+      "description": "Black Apple earbuds case, white scratch on front.",
+      "location": "Engineering Building",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Black Apple earbuds case, white scratch on front.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-08-02",
+      "image_path": "images/201.png"
+    },
+    {
+      "id": 2,
+      "report_type": "lost",
+      "name": "Leather wallet",
+      "category": "Wallets",
+      "description": "Black leather wallet with red stitching, two card slots.",
+      "location": "Cafeteria",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/2.png"
+    },
+    {
+      "id": 102,
+      "report_type": "found",
+      "name": "Found wallet",
+      "category": "Wallets",
+      "description": "Dark folding billfold with crimson thread around the edge.",
+      "location": "Cafeteria",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Dark folding billfold with crimson thread around the edge.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-09-21",
+      "image_path": "images/102.png"
+    },
+    {
+      "id": 202,
+      "report_type": "found",
+      "name": "Found wallet",
+      "category": "Wallets",
+      "description": "Black leather wallet with red stitching, two card slots.",
+      "location": "Cafeteria",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Black leather wallet with red stitching, two card slots.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-08-02",
+      "image_path": "images/202.png"
+    },
+    {
+      "id": 3,
+      "report_type": "lost",
+      "name": "Campus keys",
+      "category": "Keys",
+      "description": "Three silver keys on a ring with a blue round tag.",
+      "location": "Parking",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/3.png"
+    },
+    {
+      "id": 103,
+      "report_type": "found",
+      "name": "Found keys",
+      "category": "Keys",
+      "description": "Keyring holding three door keys and a blue circular fob.",
+      "location": "Parking",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Keyring holding three door keys and a blue circular fob.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-09-21",
+      "image_path": "images/103.png"
+    },
+    {
+      "id": 203,
+      "report_type": "found",
+      "name": "Found keys",
+      "category": "Keys",
+      "description": "Three silver keys on a ring with a blue round tag.",
+      "location": "Engineering Building",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Three silver keys on a ring with a blue round tag.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-08-02",
+      "image_path": "images/203.png"
+    },
+    {
+      "id": 4,
+      "report_type": "lost",
+      "name": "Blue backpack",
+      "category": "Bags",
+      "description": "Navy backpack with yellow front pocket and two straps.",
+      "location": "Student Center",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/4.png"
+    },
+    {
+      "id": 104,
+      "report_type": "found",
+      "name": "Found backpack",
+      "category": "Bags",
+      "description": "Dark blue school rucksack with a mustard pouch on the front.",
+      "location": "Student Center",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Dark blue school rucksack with a mustard pouch on the front.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-09-21",
+      "image_path": "images/104.png"
+    },
+    {
+      "id": 204,
+      "report_type": "found",
+      "name": "Found backpack",
+      "category": "Bags",
+      "description": "Navy backpack with yellow front pocket and two straps.",
+      "location": "Student Center",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Navy backpack with yellow front pocket and two straps.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-08-02",
+      "image_path": "images/204.png"
+    },
+    {
+      "id": 5,
+      "report_type": "lost",
+      "name": "Wristwatch",
+      "category": "Other",
+      "description": "Round silver watch with black leather strap and white dial.",
+      "location": "Science Building",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/5.png"
+    },
+    {
+      "id": 105,
+      "report_type": "found",
+      "name": "Found watch",
+      "category": "Other",
+      "description": "Analog timepiece, pale round face, dark band.",
+      "location": "Science Building",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Analog timepiece, pale round face, dark band.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-09-21",
+      "image_path": "images/105.png"
+    },
+    {
+      "id": 205,
+      "report_type": "found",
+      "name": "Found watch",
+      "category": "Other",
+      "description": "Round silver watch with black leather strap and white dial.",
+      "location": "Engineering Building",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Round silver watch with black leather strap and white dial.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-08-02",
+      "image_path": "images/205.png"
+    },
+    {
+      "id": 6,
+      "report_type": "lost",
+      "name": "Mobile phone",
+      "category": "Electronics",
+      "description": "Green phone case with two cameras and a small white star.",
+      "location": "Lecture Hall",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/6.png"
+    },
+    {
+      "id": 106,
+      "report_type": "found",
+      "name": "Found phone",
+      "category": "Electronics",
+      "description": "Smartphone in a forest green cover with a star sticker.",
+      "location": "Lecture Hall",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Smartphone in a forest green cover with a star sticker.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-09-21",
+      "image_path": "images/106.png"
+    },
+    {
+      "id": 206,
+      "report_type": "found",
+      "name": "Found phone",
+      "category": "Electronics",
+      "description": "Green phone case with two cameras and a small white star.",
+      "location": "Lecture Hall",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Green phone case with two cameras and a small white star.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-08-02",
+      "image_path": "images/206.png"
+    },
+    {
+      "id": 7,
+      "report_type": "lost",
+      "name": "Laptop charger",
+      "category": "Chargers / Accessories",
+      "description": "White rectangular USB C power adapter and coiled cable.",
+      "location": "Computer Lab",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/7.png"
+    },
+    {
+      "id": 107,
+      "report_type": "found",
+      "name": "Found charger",
+      "category": "Chargers / Accessories",
+      "description": "Pale laptop charging brick with a type C lead.",
+      "location": "Computer Lab",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Pale laptop charging brick with a type C lead.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-09-21",
+      "image_path": "images/107.png"
+    },
+    {
+      "id": 207,
+      "report_type": "found",
+      "name": "Found charger",
+      "category": "Bags",
+      "description": "White rectangular USB C power adapter and coiled cable.",
+      "location": "Engineering Building",
+      "location_detail": "Near desk 14",
+      "identifying_details": "White rectangular USB C power adapter and coiled cable.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-08-02",
+      "image_path": "images/207.png"
+    },
+    {
+      "id": 8,
+      "report_type": "lost",
+      "name": "Reading glasses",
+      "category": "Glasses",
+      "description": "Brown round spectacles with thin frames.",
+      "location": "Reception",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": "2026-09-20",
+      "image_path": "images/8.png"
+    },
+    {
+      "id": 108,
+      "report_type": "found",
+      "name": "Found glasses",
+      "category": "Glasses",
+      "description": "Circular tortoiseshell eyeglasses with slender arms.",
+      "location": "Reception",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Circular tortoiseshell eyeglasses with slender arms.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-09-21",
+      "image_path": "images/108.png"
+    },
+    {
+      "id": 208,
+      "report_type": "found",
+      "name": "Found glasses",
+      "category": "Glasses",
+      "description": "Brown round spectacles with thin frames.",
+      "location": "Reception",
+      "location_detail": "Near desk 14",
+      "identifying_details": "Brown round spectacles with thin frames.",
+      "handover_location": "Campus Security",
+      "event_date": "2026-08-02",
+      "image_path": "images/208.png"
+    },
+    {
+      "id": 9,
+      "report_type": "lost",
+      "name": "Red scarf",
+      "category": "Clothing",
+      "description": "Wool red scarf with white stripes",
+      "location": "Student Services",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": "2026-09-22",
+      "image_path": null
+    },
+    {
+      "id": 109,
+      "report_type": "found",
+      "name": "Red scarf",
+      "category": "Clothing",
+      "description": "Striped crimson wool neck warmer",
+      "location": "Student Services",
+      "location_detail": null,
+      "identifying_details": "Striped crimson wool neck warmer",
+      "handover_location": "Student Services",
+      "event_date": "2026-09-22",
+      "image_path": null
+    },
+    {
+      "id": 10,
+      "report_type": "lost",
+      "name": "Water bottle",
+      "category": "Water Bottles",
+      "description": "Steel blue bottle with a dent",
+      "location": "Gym",
+      "location_detail": null,
+      "identifying_details": null,
+      "handover_location": null,
+      "event_date": null,
+      "image_path": null
+    },
+    {
+      "id": 110,
+      "report_type": "found",
+      "name": "Water bottle",
+      "category": "Water Bottles",
+      "description": "Dented blue metal flask",
+      "location": "Gym",
+      "location_detail": null,
+      "identifying_details": "Dented blue metal flask",
+      "handover_location": "Student Services",
+      "event_date": null,
+      "image_path": null
+    }
+  ],
+  "relevant_pairs": {
+    "1": [
+      101
+    ],
+    "2": [
+      102
+    ],
+    "3": [
+      103
+    ],
+    "4": [
+      104
+    ],
+    "5": [
+      105
+    ],
+    "6": [
+      106
+    ],
+    "7": [
+      107
+    ],
+    "8": [
+      108
+    ],
+    "9": [
+      109
+    ],
+    "10": [
+      110
+    ]
+  }
+}

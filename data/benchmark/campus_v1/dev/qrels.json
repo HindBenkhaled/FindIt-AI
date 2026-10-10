@@ -1,0 +1,285 @@
+{
+  "split": "dev",
+  "qrels": {
+    "1001": {
+      "relevant": [
+        2001
+      ],
+      "hard_negatives": [
+        3001
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ]
+    },
+    "1002": {
+      "relevant": [
+        2002
+      ],
+      "hard_negatives": [
+        3002
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ]
+    },
+    "1003": {
+      "relevant": [
+        2003
+      ],
+      "hard_negatives": [
+        3003
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1004": {
+      "relevant": [
+        2004
+      ],
+      "hard_negatives": [
+        3004
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ]
+    },
+    "1005": {
+      "relevant": [
+        2005
+      ],
+      "hard_negatives": [
+        3005
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1006": {
+      "relevant": [
+        2006
+      ],
+      "hard_negatives": [
+        3006
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "category_conflict"
+      ]
+    },
+    "1007": {
+      "relevant": [
+        2007
+      ],
+      "hard_negatives": [
+        3007
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1008": {
+      "relevant": [
+        2008
+      ],
+      "hard_negatives": [
+        3008
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1009": {
+      "relevant": [
+        2009
+      ],
+      "hard_negatives": [
+        3009
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "date_gap"
+      ]
+    },
+    "1010": {
+      "relevant": [
+        2010
+      ],
+      "hard_negatives": [
+        3010
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1011": {
+      "relevant": [
+        2011
+      ],
+      "hard_negatives": [
+        3011
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict",
+        "ambiguous_description"
+      ]
+    },
+    "1012": {
+      "relevant": [
+        2012
+      ],
+      "hard_negatives": [
+        3012
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1013": {
+      "relevant": [
+        2013
+      ],
+      "hard_negatives": [
+        3013
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1014": {
+      "relevant": [
+        2014
+      ],
+      "hard_negatives": [
+        3014
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1015": {
+      "relevant": [
+        2015
+      ],
+      "hard_negatives": [
+        3015
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1016": {
+      "relevant": [
+        2016
+      ],
+      "hard_negatives": [
+        3016
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ]
+    },
+    "1017": {
+      "relevant": [
+        2017
+      ],
+      "hard_negatives": [
+        3017
+      ],
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    "1018": {
+      "relevant": [
+        2018
+      ],
+      "hard_negatives": [
+        3018
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "ambiguous_description"
+      ]
+    },
+    "1019": {
+      "relevant": [
+        2019
+      ],
+      "hard_negatives": [
+        3019
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "missing_lost_image"
+      ]
+    },
+    "1020": {
+      "relevant": [
+        2020
+      ],
+      "hard_negatives": [
+        3020
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "missing_found_image"
+      ]
+    },
+    "1021": {
+      "relevant": [
+        2021
+      ],
+      "hard_negatives": [
+        3021
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "missing_both_images"
+      ]
+    },
+    "1022": {
+      "relevant": [
+        2022
+      ],
+      "hard_negatives": [
+        3022
+      ],
+      "challenge_tags": [
+        "similar_item",
+        "location_conflict"
+      ]
+    },
+    "1023": {
+      "relevant": [
+        2023
+      ],
+      "hard_negatives": [
+        3023
+      ],
+      "challenge_tags": [
+        "ambiguous_description",
+        "missing_both_images"
+      ]
+    },
+    "1024": {
+      "relevant": [
+        2024
+      ],
+      "hard_negatives": [
+        3024
+      ],
+      "challenge_tags": [
+        "ambiguous_description",
+        "date_gap",
+        "similar_item"
+      ]
+    }
+  }
+}

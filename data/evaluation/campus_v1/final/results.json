@@ -1,0 +1,235 @@
+{
+  "status": "final_frozen_evaluation_complete",
+  "post_test_tuning_permitted": false,
+  "frozen_config_sha256": "ab5666251dffed4f022586d37ff480cad7f8757d68b462e6441d57da5167e538",
+  "test_manifest_sha256": "9ab28f79d1dbfd08e0c1c13d0fdda8bff4d040416d8de02e4ecb35df5b7ff543",
+  "test_reports_sha256": "1c3fa76ad4bca17a8c4bee13adec085534cd382c2de02c1a175b5604a6e52e73",
+  "test_qrels_sha256": "ad66fe6020877e6babbcb9751bf51b171d62c26505e2e078c67906b541568e5b",
+  "text_model": "intfloat/e5-base-v2",
+  "image_model": "google/siglip-base-patch16-224",
+  "weights": {
+    "text": 0.35,
+    "image": 0.3,
+    "location": 0.15,
+    "time": 0.1,
+    "category": 0.1
+  },
+  "retrieval": "exhaustive full candidate scan; no FAISS",
+  "eligible_queries": 16,
+  "candidate_count": 32,
+  "metrics": {
+    "Recall@1": 0.8125,
+    "Recall@3": 1.0,
+    "Recall@5": 1.0,
+    "MRR": 0.90625
+  },
+  "challenge_metrics": {
+    "ambiguous_description": {
+      "queries": 4,
+      "Recall@1": 1.0,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 1.0
+    },
+    "category_conflict": {
+      "queries": 1,
+      "Recall@1": 1.0,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 1.0
+    },
+    "date_gap": {
+      "queries": 2,
+      "Recall@1": 0.5,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 0.75
+    },
+    "location_conflict": {
+      "queries": 3,
+      "Recall@1": 1.0,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 1.0
+    },
+    "missing_both_images": {
+      "queries": 2,
+      "Recall@1": 1.0,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 1.0
+    },
+    "missing_found_image": {
+      "queries": 1,
+      "Recall@1": 1.0,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 1.0
+    },
+    "missing_lost_image": {
+      "queries": 1,
+      "Recall@1": 0.0,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 0.5
+    },
+    "similar_item": {
+      "queries": 15,
+      "Recall@1": 0.8,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 0.9
+    }
+  },
+  "failure_count": 3,
+  "failures": [
+    {
+      "query_id": 11007,
+      "query_name": "Silver signet ring",
+      "query_description": "Small silver signet ring engraved with two parallel waves inside the band.",
+      "top_id": 13007,
+      "top_description": "Small plain silver signet ring with a smooth inner band.",
+      "relevant_id": 12007,
+      "relevant_description": "Compact metallic seal ring with a pair of wavy lines etched on its inner surface.",
+      "relevant_rank": 2,
+      "top_score": 0.8633784938254936,
+      "relevant_score": 0.8594250965514763,
+      "top_components": {
+        "text": 0.8893104791641235,
+        "image": null,
+        "location": 1.0,
+        "time": 0.9310627797040227,
+        "category": 0.5
+      },
+      "relevant_components": {
+        "text": 0.8814036846160889,
+        "image": null,
+        "location": 1.0,
+        "time": 0.9310627797040227,
+        "category": 0.5
+      },
+      "top_effective_weights": {
+        "text": 0.5,
+        "location": 0.2142857142857143,
+        "time": 0.14285714285714288,
+        "category": 0.14285714285714288
+      },
+      "relevant_effective_weights": {
+        "text": 0.5,
+        "location": 0.2142857142857143,
+        "time": 0.14285714285714288,
+        "category": 0.14285714285714288
+      },
+      "challenge_tags": [
+        "similar_item",
+        "missing_lost_image"
+      ]
+    },
+    {
+      "query_id": 11008,
+      "query_name": "Olive lunch container",
+      "query_description": "Olive rectangular lunch box with one cream latch chipped at the corner.",
+      "top_id": 13008,
+      "top_description": "Olive lunch container with two complete cream latches.",
+      "relevant_id": 12008,
+      "relevant_description": "Green meal container; pale locking tab has a broken corner.",
+      "relevant_rank": 2,
+      "top_score": 0.9103889457264829,
+      "relevant_score": 0.9072928182164121,
+      "top_components": {
+        "text": 0.9432974457740784,
+        "image": 0.957095205783844,
+        "location": 1.0,
+        "time": 0.9310627797040227,
+        "category": 0.5
+      },
+      "relevant_components": {
+        "text": 0.9124062657356262,
+        "image": 0.9828144907951355,
+        "location": 1.0,
+        "time": 0.9310627797040227,
+        "category": 0.5
+      },
+      "top_effective_weights": {
+        "text": 0.35,
+        "image": 0.3,
+        "location": 0.15,
+        "time": 0.1,
+        "category": 0.1
+      },
+      "relevant_effective_weights": {
+        "text": 0.35,
+        "image": 0.3,
+        "location": 0.15,
+        "time": 0.1,
+        "category": 0.1
+      },
+      "challenge_tags": [
+        "similar_item"
+      ]
+    },
+    {
+      "query_id": 11014,
+      "query_name": "Insulated travel mug",
+      "query_description": "Copper travel mug with a navy sliding lid and shallow groove around its base.",
+      "top_id": 13014,
+      "top_description": "Copper travel mug with a black lid and smooth base.",
+      "relevant_id": 12014,
+      "relevant_description": "Bronze thermal cup, dark-blue slider top, narrow ring indentation near the bottom.",
+      "relevant_rank": 2,
+      "top_score": 0.9462677172699856,
+      "relevant_score": 0.8637991905106058,
+      "top_components": {
+        "text": 0.9100211262702942,
+        "image": 0.9488468170166016,
+        "location": 1.0,
+        "time": 0.9310627797040227,
+        "category": 1.0
+      },
+      "relevant_components": {
+        "text": 0.8913236856460571,
+        "image": 0.9818937182426453,
+        "location": 1.0,
+        "time": 0.0726778506169233,
+        "category": 1.0
+      },
+      "top_effective_weights": {
+        "text": 0.35,
+        "image": 0.3,
+        "location": 0.15,
+        "time": 0.1,
+        "category": 0.1
+      },
+      "relevant_effective_weights": {
+        "text": 0.35,
+        "image": 0.3,
+        "location": 0.15,
+        "time": 0.1,
+        "category": 0.1
+      },
+      "challenge_tags": [
+        "similar_item",
+        "date_gap"
+      ]
+    }
+  ],
+  "latency_ms": {
+    "average": 0.13401249816524796,
+    "median": 0.12270000297576189,
+    "p95": 0.19779999274760485,
+    "samples": 16,
+    "mode": "warm in-memory signal combination and exhaustive sorting"
+  },
+  "embedding_generation": {
+    "text_embedding_seconds": 13.008389199967496,
+    "image_embedding_seconds": 9.321789500012528,
+    "reports": 48,
+    "images": 40
+  },
+  "development_metrics": {
+    "Recall@1": 0.9583333333333334,
+    "Recall@3": 1.0,
+    "Recall@5": 1.0,
+    "MRR": 0.9791666666666666
+  }
+}

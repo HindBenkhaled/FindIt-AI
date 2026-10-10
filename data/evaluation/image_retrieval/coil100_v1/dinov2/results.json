@@ -1,0 +1,585 @@
+{
+  "model_key": "dinov2",
+  "model_id": "facebook/dinov2-base",
+  "backend": "dinov2",
+  "device": "cpu",
+  "embedding_dimension": 768,
+  "unique_images_embedded": 600,
+  "model_load_seconds": 0.2798010000260547,
+  "embedding_total_seconds": 161.31088199996157,
+  "embedding_average_ms": 268.85146999993594,
+  "packages": {
+    "torch": "2.14.0",
+    "transformers": "4.57.6",
+    "sentence-transformers": "5.7.0"
+  },
+  "python": "3.12.6",
+  "results": {
+    "easy": {
+      "query_count": 200,
+      "gallery_size": 200,
+      "benchmark_hash": "8f4cb8fe0d6fc63bc891b9fd64c901819bc20a7b38234e2f7c878c3783978aeb",
+      "metrics": {
+        "Recall@1": 0.5,
+        "Recall@3": 0.9525,
+        "Recall@5": 0.9825,
+        "MRR": 1.0
+      },
+      "latency_ms": {
+        "average": 0.10524600133066997,
+        "median": 0.05405000410974026,
+        "p95": 0.1058999914675951,
+        "samples": 200,
+        "mode": "cached cosine retrieval"
+      },
+      "failures": []
+    },
+    "hard": {
+      "query_count": 200,
+      "gallery_size": 200,
+      "benchmark_hash": "a4a2b4cc0c235a2b74c3b41bbb442b9d8467eead529ed2bacfe47c4e8d042b45",
+      "metrics": {
+        "Recall@1": 0.4225,
+        "Recall@3": 0.8225,
+        "Recall@5": 0.89,
+        "MRR": 0.8902432877406282
+      },
+      "latency_ms": {
+        "average": 0.05335449881386012,
+        "median": 0.05025000427849591,
+        "p95": 0.07210002513602376,
+        "samples": 200,
+        "mode": "cached cosine retrieval"
+      },
+      "failures": [
+        {
+          "query_id": "obj009_view000",
+          "query_angle": 0,
+          "object_id": 9,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj067_view090",
+            "obj009_view270",
+            "obj039_view090",
+            "obj039_view270",
+            "obj085_view090"
+          ],
+          "relevant_ids": [
+            "obj009_view090",
+            "obj009_view270"
+          ]
+        },
+        {
+          "query_id": "obj012_view000",
+          "query_angle": 0,
+          "object_id": 12,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj041_view090",
+            "obj012_view090",
+            "obj077_view090",
+            "obj041_view270",
+            "obj012_view270"
+          ],
+          "relevant_ids": [
+            "obj012_view090",
+            "obj012_view270"
+          ]
+        },
+        {
+          "query_id": "obj015_view180",
+          "query_angle": 180,
+          "object_id": 15,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj008_view270",
+            "obj015_view270",
+            "obj069_view090",
+            "obj076_view090",
+            "obj023_view270"
+          ],
+          "relevant_ids": [
+            "obj015_view090",
+            "obj015_view270"
+          ]
+        },
+        {
+          "query_id": "obj019_view180",
+          "query_angle": 180,
+          "object_id": 19,
+          "first_relevant_rank": 5,
+          "top_ids": [
+            "obj015_view270",
+            "obj027_view270",
+            "obj027_view090",
+            "obj076_view090",
+            "obj019_view270"
+          ],
+          "relevant_ids": [
+            "obj019_view090",
+            "obj019_view270"
+          ]
+        },
+        {
+          "query_id": "obj027_view000",
+          "query_angle": 0,
+          "object_id": 27,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj015_view270",
+            "obj027_view270",
+            "obj076_view090",
+            "obj069_view090",
+            "obj023_view270"
+          ],
+          "relevant_ids": [
+            "obj027_view090",
+            "obj027_view270"
+          ]
+        },
+        {
+          "query_id": "obj027_view180",
+          "query_angle": 180,
+          "object_id": 27,
+          "first_relevant_rank": 3,
+          "top_ids": [
+            "obj069_view090",
+            "obj076_view090",
+            "obj027_view270",
+            "obj027_view090",
+            "obj015_view270"
+          ],
+          "relevant_ids": [
+            "obj027_view090",
+            "obj027_view270"
+          ]
+        },
+        {
+          "query_id": "obj031_view000",
+          "query_angle": 0,
+          "object_id": 31,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj001_view270",
+            "obj031_view090",
+            "obj054_view090",
+            "obj079_view270",
+            "obj001_view090"
+          ],
+          "relevant_ids": [
+            "obj031_view090",
+            "obj031_view270"
+          ]
+        },
+        {
+          "query_id": "obj032_view000",
+          "query_angle": 0,
+          "object_id": 32,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj029_view270",
+            "obj032_view270",
+            "obj029_view090",
+            "obj032_view090",
+            "obj049_view270"
+          ],
+          "relevant_ids": [
+            "obj032_view090",
+            "obj032_view270"
+          ]
+        },
+        {
+          "query_id": "obj042_view180",
+          "query_angle": 180,
+          "object_id": 42,
+          "first_relevant_rank": 3,
+          "top_ids": [
+            "obj078_view090",
+            "obj078_view270",
+            "obj042_view090",
+            "obj042_view270",
+            "obj003_view270"
+          ],
+          "relevant_ids": [
+            "obj042_view090",
+            "obj042_view270"
+          ]
+        },
+        {
+          "query_id": "obj046_view000",
+          "query_angle": 0,
+          "object_id": 46,
+          "first_relevant_rank": 8,
+          "top_ids": [
+            "obj079_view090",
+            "obj079_view270",
+            "obj001_view270",
+            "obj031_view270",
+            "obj054_view090"
+          ],
+          "relevant_ids": [
+            "obj046_view090",
+            "obj046_view270"
+          ]
+        },
+        {
+          "query_id": "obj046_view180",
+          "query_angle": 180,
+          "object_id": 46,
+          "first_relevant_rank": 6,
+          "top_ids": [
+            "obj079_view270",
+            "obj079_view090",
+            "obj001_view270",
+            "obj054_view090",
+            "obj031_view090"
+          ],
+          "relevant_ids": [
+            "obj046_view090",
+            "obj046_view270"
+          ]
+        },
+        {
+          "query_id": "obj051_view000",
+          "query_angle": 0,
+          "object_id": 51,
+          "first_relevant_rank": 9,
+          "top_ids": [
+            "obj041_view270",
+            "obj041_view090",
+            "obj077_view090",
+            "obj077_view270",
+            "obj012_view270"
+          ],
+          "relevant_ids": [
+            "obj051_view090",
+            "obj051_view270"
+          ]
+        },
+        {
+          "query_id": "obj051_view180",
+          "query_angle": 180,
+          "object_id": 51,
+          "first_relevant_rank": 9,
+          "top_ids": [
+            "obj041_view270",
+            "obj041_view090",
+            "obj077_view090",
+            "obj077_view270",
+            "obj012_view270"
+          ],
+          "relevant_ids": [
+            "obj051_view090",
+            "obj051_view270"
+          ]
+        },
+        {
+          "query_id": "obj052_view000",
+          "query_angle": 0,
+          "object_id": 52,
+          "first_relevant_rank": 3,
+          "top_ids": [
+            "obj017_view090",
+            "obj017_view270",
+            "obj052_view090",
+            "obj052_view270",
+            "obj014_view270"
+          ],
+          "relevant_ids": [
+            "obj052_view090",
+            "obj052_view270"
+          ]
+        },
+        {
+          "query_id": "obj061_view180",
+          "query_angle": 180,
+          "object_id": 61,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj092_view270",
+            "obj061_view270",
+            "obj092_view090",
+            "obj061_view090",
+            "obj022_view090"
+          ],
+          "relevant_ids": [
+            "obj061_view090",
+            "obj061_view270"
+          ]
+        },
+        {
+          "query_id": "obj065_view000",
+          "query_angle": 0,
+          "object_id": 65,
+          "first_relevant_rank": 15,
+          "top_ids": [
+            "obj096_view090",
+            "obj069_view270",
+            "obj067_view090",
+            "obj091_view270",
+            "obj091_view090"
+          ],
+          "relevant_ids": [
+            "obj065_view090",
+            "obj065_view270"
+          ]
+        },
+        {
+          "query_id": "obj067_view180",
+          "query_angle": 180,
+          "object_id": 67,
+          "first_relevant_rank": 5,
+          "top_ids": [
+            "obj031_view270",
+            "obj079_view270",
+            "obj079_view090",
+            "obj031_view090",
+            "obj067_view090"
+          ],
+          "relevant_ids": [
+            "obj067_view090",
+            "obj067_view270"
+          ]
+        },
+        {
+          "query_id": "obj077_view000",
+          "query_angle": 0,
+          "object_id": 77,
+          "first_relevant_rank": 3,
+          "top_ids": [
+            "obj041_view270",
+            "obj041_view090",
+            "obj077_view090",
+            "obj077_view270",
+            "obj012_view270"
+          ],
+          "relevant_ids": [
+            "obj077_view090",
+            "obj077_view270"
+          ]
+        },
+        {
+          "query_id": "obj077_view180",
+          "query_angle": 180,
+          "object_id": 77,
+          "first_relevant_rank": 3,
+          "top_ids": [
+            "obj041_view090",
+            "obj041_view270",
+            "obj077_view090",
+            "obj077_view270",
+            "obj012_view270"
+          ],
+          "relevant_ids": [
+            "obj077_view090",
+            "obj077_view270"
+          ]
+        },
+        {
+          "query_id": "obj079_view000",
+          "query_angle": 0,
+          "object_id": 79,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj054_view090",
+            "obj079_view270",
+            "obj001_view270",
+            "obj031_view090",
+            "obj079_view090"
+          ],
+          "relevant_ids": [
+            "obj079_view090",
+            "obj079_view270"
+          ]
+        },
+        {
+          "query_id": "obj079_view180",
+          "query_angle": 180,
+          "object_id": 79,
+          "first_relevant_rank": 4,
+          "top_ids": [
+            "obj031_view090",
+            "obj054_view090",
+            "obj001_view270",
+            "obj079_view270",
+            "obj079_view090"
+          ],
+          "relevant_ids": [
+            "obj079_view090",
+            "obj079_view270"
+          ]
+        },
+        {
+          "query_id": "obj080_view000",
+          "query_angle": 0,
+          "object_id": 80,
+          "first_relevant_rank": 7,
+          "top_ids": [
+            "obj041_view270",
+            "obj041_view090",
+            "obj077_view090",
+            "obj077_view270",
+            "obj012_view090"
+          ],
+          "relevant_ids": [
+            "obj080_view090",
+            "obj080_view270"
+          ]
+        },
+        {
+          "query_id": "obj080_view180",
+          "query_angle": 180,
+          "object_id": 80,
+          "first_relevant_rank": 5,
+          "top_ids": [
+            "obj041_view090",
+            "obj041_view270",
+            "obj077_view270",
+            "obj077_view090",
+            "obj080_view270"
+          ],
+          "relevant_ids": [
+            "obj080_view090",
+            "obj080_view270"
+          ]
+        },
+        {
+          "query_id": "obj084_view180",
+          "query_angle": 180,
+          "object_id": 84,
+          "first_relevant_rank": 7,
+          "top_ids": [
+            "obj079_view270",
+            "obj001_view270",
+            "obj079_view090",
+            "obj054_view090",
+            "obj031_view090"
+          ],
+          "relevant_ids": [
+            "obj084_view090",
+            "obj084_view270"
+          ]
+        },
+        {
+          "query_id": "obj090_view000",
+          "query_angle": 0,
+          "object_id": 90,
+          "first_relevant_rank": 10,
+          "top_ids": [
+            "obj039_view270",
+            "obj098_view270",
+            "obj039_view090",
+            "obj055_view270",
+            "obj067_view090"
+          ],
+          "relevant_ids": [
+            "obj090_view090",
+            "obj090_view270"
+          ]
+        },
+        {
+          "query_id": "obj090_view180",
+          "query_angle": 180,
+          "object_id": 90,
+          "first_relevant_rank": 47,
+          "top_ids": [
+            "obj039_view270",
+            "obj022_view090",
+            "obj022_view270",
+            "obj013_view270",
+            "obj055_view270"
+          ],
+          "relevant_ids": [
+            "obj090_view090",
+            "obj090_view270"
+          ]
+        },
+        {
+          "query_id": "obj091_view000",
+          "query_angle": 0,
+          "object_id": 91,
+          "first_relevant_rank": 9,
+          "top_ids": [
+            "obj069_view090",
+            "obj008_view270",
+            "obj006_view090",
+            "obj015_view090",
+            "obj015_view270"
+          ],
+          "relevant_ids": [
+            "obj091_view090",
+            "obj091_view270"
+          ]
+        },
+        {
+          "query_id": "obj091_view180",
+          "query_angle": 180,
+          "object_id": 91,
+          "first_relevant_rank": 10,
+          "top_ids": [
+            "obj069_view090",
+            "obj008_view270",
+            "obj006_view090",
+            "obj006_view270",
+            "obj023_view270"
+          ],
+          "relevant_ids": [
+            "obj091_view090",
+            "obj091_view270"
+          ]
+        },
+        {
+          "query_id": "obj092_view000",
+          "query_angle": 0,
+          "object_id": 92,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj061_view270",
+            "obj092_view270",
+            "obj092_view090",
+            "obj061_view090",
+            "obj033_view270"
+          ],
+          "relevant_ids": [
+            "obj092_view090",
+            "obj092_view270"
+          ]
+        },
+        {
+          "query_id": "obj098_view000",
+          "query_angle": 0,
+          "object_id": 98,
+          "first_relevant_rank": 3,
+          "top_ids": [
+            "obj084_view270",
+            "obj084_view090",
+            "obj098_view090",
+            "obj079_view270",
+            "obj067_view090"
+          ],
+          "relevant_ids": [
+            "obj098_view090",
+            "obj098_view270"
+          ]
+        },
+        {
+          "query_id": "obj098_view180",
+          "query_angle": 180,
+          "object_id": 98,
+          "first_relevant_rank": 2,
+          "top_ids": [
+            "obj079_view270",
+            "obj098_view090",
+            "obj001_view090",
+            "obj079_view090",
+            "obj084_view270"
+          ],
+          "relevant_ids": [
+            "obj098_view090",
+            "obj098_view270"
+          ]
+        }
+      ]
+    }
+  }
+}

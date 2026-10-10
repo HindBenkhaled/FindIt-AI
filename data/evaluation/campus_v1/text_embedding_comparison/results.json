@@ -1,0 +1,3234 @@
+{
+  "experiment": "campus_v1_text_embedding_comparison",
+  "created_at": "2026-10-06T20:54:16.540832+00:00",
+  "split": "dev",
+  "models": {
+    "minilm": "sentence-transformers/all-MiniLM-L6-v2",
+    "bge-base": "BAAI/bge-base-en-v1.5",
+    "e5-base": "intfloat/e5-base-v2"
+  },
+  "methods": [
+    "text",
+    "full"
+  ],
+  "reports_sha256": "0b1f9467206900a48eaa9912992d04e6d866b12531d8485c7c3f58d5e8bfa446",
+  "qrels_sha256": "d5749e7acb6fa7eff4fd423aec9bf56983830169d4f078c031442df00cf4bf0a",
+  "image_model": "sentence-transformers/clip-ViT-B-32",
+  "weights": {
+    "text": 0.35,
+    "image": 0.3,
+    "location": 0.15,
+    "time": 0.1,
+    "category": 0.1
+  },
+  "latency_note": "Warm-model, warm content-addressed embedding-cache latency around rank_reports only; machine-specific.",
+  "protocol": "Raw drop-in text encoders; identical report text, candidates, rank_reports pipeline, image model and weights. No E5/BGE-specific prefixes.",
+  "comparisons": [
+    {
+      "model_key": "minilm",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "cohort": "image_complete",
+      "method": "text",
+      "queries": 20,
+      "candidates": 43,
+      "metrics": {
+        "Recall@1": 0.3,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.6416666666666667
+      },
+      "latency_ms": {
+        "average": 10.403064999263734,
+        "median": 10.309099801816046,
+        "p95": 11.542899999767542,
+        "samples": 20,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.0,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.0
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 5,
+          "Recall@1": 0.4,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.6666666666666666
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        },
+        "similar_item": {
+          "queries": 20,
+          "Recall@1": 0.3,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.6416666666666667
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1001,
+          "relevant_ids": [
+            2001
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3001,
+            2001,
+            3024,
+            2024,
+            3002
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            3004,
+            2019,
+            2004
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1004,
+          "relevant_ids": [
+            2004
+          ],
+          "relevant_rank": 3,
+          "top_ids": [
+            3004,
+            2003,
+            2004,
+            3003,
+            2009
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1005,
+          "relevant_ids": [
+            2005
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3005,
+            2005,
+            3006,
+            2006,
+            2001
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1007,
+          "relevant_ids": [
+            2007
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3007,
+            2007,
+            2008,
+            3008,
+            3011
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1008,
+          "relevant_ids": [
+            2008
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3008,
+            2008,
+            3011,
+            3007,
+            2007
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1010,
+          "relevant_ids": [
+            2010
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3010,
+            2010,
+            2011,
+            2012,
+            3012
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1011,
+          "relevant_ids": [
+            2011
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3011,
+            2011,
+            2012,
+            3010,
+            2010
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1012,
+          "relevant_ids": [
+            2012
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3012,
+            2012,
+            2011,
+            3011,
+            3010
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            2014,
+            3014,
+            3022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            2013,
+            3013,
+            2010
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1015,
+          "relevant_ids": [
+            2015
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3015,
+            2015,
+            3016,
+            2016,
+            2022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1016,
+          "relevant_ids": [
+            2016
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3016,
+            2016,
+            2015,
+            3015,
+            3019
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict"
+          ]
+        },
+        {
+          "query_id": 1017,
+          "relevant_ids": [
+            2017
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3017,
+            2017,
+            3018,
+            2018,
+            2003
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "minilm",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "cohort": "image_complete",
+      "method": "full",
+      "queries": 20,
+      "candidates": 43,
+      "metrics": {
+        "Recall@1": 0.6,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.8
+      },
+      "latency_ms": {
+        "average": 24.821210000663996,
+        "median": 24.33915005531162,
+        "p95": 26.181200053542852,
+        "samples": 20,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.0,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.0
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 5,
+          "Recall@1": 0.6,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.8
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "similar_item": {
+          "queries": 20,
+          "Recall@1": 0.6,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.8
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1001,
+          "relevant_ids": [
+            2001
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3001,
+            2001,
+            3024,
+            3002,
+            2024
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            3004,
+            2004,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1004,
+          "relevant_ids": [
+            2004
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3004,
+            2004,
+            2003,
+            3003,
+            2009
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1005,
+          "relevant_ids": [
+            2005
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3005,
+            2005,
+            3006,
+            2006,
+            2001
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1008,
+          "relevant_ids": [
+            2008
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3008,
+            2008,
+            2007,
+            3007,
+            2022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1010,
+          "relevant_ids": [
+            2010
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3010,
+            2010,
+            2009,
+            3011,
+            2011
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            2014,
+            3014,
+            3022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            2013,
+            3013,
+            2009
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "minilm",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "cohort": "all_reports",
+      "method": "text",
+      "queries": 24,
+      "candidates": 48,
+      "metrics": {
+        "Recall@1": 0.3333333333333333,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.6597222222222222
+      },
+      "latency_ms": {
+        "average": 36.59437498815047,
+        "median": 36.61719989031553,
+        "p95": 40.066299960017204,
+        "samples": 24,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.0,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.0
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 6,
+          "Recall@1": 0.3333333333333333,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.6388888888888888
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        },
+        "missing_both_images": {
+          "queries": 2,
+          "Recall@1": 0.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.5
+        },
+        "missing_found_image": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "missing_lost_image": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "similar_item": {
+          "queries": 23,
+          "Recall@1": 0.34782608695652173,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.6666666666666667
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_both_images": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_found_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_lost_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1001,
+          "relevant_ids": [
+            2001
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3001,
+            2001,
+            3024,
+            2024,
+            3002
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            3004,
+            2019,
+            2004
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1004,
+          "relevant_ids": [
+            2004
+          ],
+          "relevant_rank": 3,
+          "top_ids": [
+            3004,
+            2003,
+            2004,
+            3003,
+            2009
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1005,
+          "relevant_ids": [
+            2005
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3005,
+            2005,
+            3006,
+            2006,
+            2001
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1007,
+          "relevant_ids": [
+            2007
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3007,
+            2007,
+            2008,
+            3008,
+            3011
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1008,
+          "relevant_ids": [
+            2008
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3008,
+            2008,
+            3011,
+            3007,
+            2007
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1010,
+          "relevant_ids": [
+            2010
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3010,
+            2010,
+            2011,
+            2012,
+            3012
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1011,
+          "relevant_ids": [
+            2011
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3011,
+            2011,
+            2012,
+            3010,
+            2010
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1012,
+          "relevant_ids": [
+            2012
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3012,
+            2012,
+            2011,
+            3011,
+            3010
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            2014,
+            3014,
+            3022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            2013,
+            3013,
+            2010
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1015,
+          "relevant_ids": [
+            2015
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3015,
+            2015,
+            3016,
+            2016,
+            2022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1016,
+          "relevant_ids": [
+            2016
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3016,
+            2016,
+            2015,
+            3015,
+            3019
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict"
+          ]
+        },
+        {
+          "query_id": 1017,
+          "relevant_ids": [
+            2017
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3017,
+            2017,
+            3018,
+            2018,
+            2003
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1021,
+          "relevant_ids": [
+            2021
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3021,
+            2021,
+            2010,
+            2011,
+            3010
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "missing_both_images"
+          ]
+        },
+        {
+          "query_id": 1023,
+          "relevant_ids": [
+            2023
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3023,
+            2023,
+            3003,
+            2020,
+            3020
+          ],
+          "challenge_tags": [
+            "ambiguous_description",
+            "missing_both_images"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "minilm",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "cohort": "all_reports",
+      "method": "full",
+      "queries": 24,
+      "candidates": 48,
+      "metrics": {
+        "Recall@1": 0.5416666666666666,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.7708333333333334
+      },
+      "latency_ms": {
+        "average": 77.06385002044651,
+        "median": 83.04090006276965,
+        "p95": 91.34980011731386,
+        "samples": 24,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.0,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.0
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 6,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "missing_both_images": {
+          "queries": 2,
+          "Recall@1": 0.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.5
+        },
+        "missing_found_image": {
+          "queries": 1,
+          "Recall@1": 0.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.5
+        },
+        "missing_lost_image": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "similar_item": {
+          "queries": 23,
+          "Recall@1": 0.5652173913043478,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.782608695652174
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_both_images": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_found_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_lost_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1001,
+          "relevant_ids": [
+            2001
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3001,
+            2001,
+            3024,
+            3002,
+            2024
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            3004,
+            2004,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1004,
+          "relevant_ids": [
+            2004
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3004,
+            2004,
+            2003,
+            3003,
+            2009
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1005,
+          "relevant_ids": [
+            2005
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3005,
+            2005,
+            3006,
+            2006,
+            2001
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1008,
+          "relevant_ids": [
+            2008
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3008,
+            2008,
+            2007,
+            3007,
+            2022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1010,
+          "relevant_ids": [
+            2010
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3010,
+            2010,
+            2009,
+            3011,
+            2011
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            2014,
+            3014,
+            3022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            2013,
+            3013,
+            2009
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1020,
+          "relevant_ids": [
+            2020
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3020,
+            2020,
+            2019,
+            3019,
+            3022
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "missing_found_image"
+          ]
+        },
+        {
+          "query_id": 1021,
+          "relevant_ids": [
+            2021
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3021,
+            2021,
+            2024,
+            3014,
+            2014
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "missing_both_images"
+          ]
+        },
+        {
+          "query_id": 1023,
+          "relevant_ids": [
+            2023
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3023,
+            2023,
+            3022,
+            2013,
+            3013
+          ],
+          "challenge_tags": [
+            "ambiguous_description",
+            "missing_both_images"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "bge-base",
+      "model": "BAAI/bge-base-en-v1.5",
+      "cohort": "image_complete",
+      "method": "text",
+      "queries": 20,
+      "candidates": 43,
+      "metrics": {
+        "Recall@1": 0.5,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.75
+      },
+      "latency_ms": {
+        "average": 42.280040006153286,
+        "median": 41.88425000756979,
+        "p95": 49.5301999617368,
+        "samples": 20,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.2,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.10833333333333328
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 5,
+          "Recall@1": 0.6,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.8
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        },
+        "similar_item": {
+          "queries": 20,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.19999999999999996,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.13333333333333341
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.2,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.10833333333333328
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            2019,
+            2004,
+            2010
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1005,
+          "relevant_ids": [
+            2005
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3005,
+            2005,
+            3006,
+            3018,
+            3004
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1008,
+          "relevant_ids": [
+            2008
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3008,
+            2008,
+            2007,
+            3007,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1011,
+          "relevant_ids": [
+            2011
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3011,
+            2011,
+            2012,
+            2019,
+            3012
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1012,
+          "relevant_ids": [
+            2012
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3012,
+            2012,
+            2011,
+            3011,
+            2010
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            3014,
+            2014,
+            2024
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            3013,
+            2024,
+            3024
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1015,
+          "relevant_ids": [
+            2015
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3015,
+            2015,
+            2016,
+            3016,
+            2007
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1016,
+          "relevant_ids": [
+            2016
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3016,
+            2016,
+            2015,
+            3015,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict"
+          ]
+        },
+        {
+          "query_id": 1018,
+          "relevant_ids": [
+            2018
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3018,
+            2018,
+            2011,
+            2017,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "bge-base",
+      "model": "BAAI/bge-base-en-v1.5",
+      "cohort": "image_complete",
+      "method": "full",
+      "queries": 20,
+      "candidates": 43,
+      "metrics": {
+        "Recall@1": 0.85,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.925
+      },
+      "latency_ms": {
+        "average": 71.6456200229004,
+        "median": 69.77140007074922,
+        "p95": 84.30089987814426,
+        "samples": 20,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.25,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.125
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 5,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "similar_item": {
+          "queries": 20,
+          "Recall@1": 0.85,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.925
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.4,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.19999999999999996
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.25,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.125
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            2004,
+            3004,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            3014,
+            2014,
+            3022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            2013,
+            3013,
+            2006
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "bge-base",
+      "model": "BAAI/bge-base-en-v1.5",
+      "cohort": "all_reports",
+      "method": "text",
+      "queries": 24,
+      "candidates": 48,
+      "metrics": {
+        "Recall@1": 0.4583333333333333,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.7291666666666666
+      },
+      "latency_ms": {
+        "average": 31.31785833587249,
+        "median": 27.395799988880754,
+        "p95": 54.299999959766865,
+        "samples": 24,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.125,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.06944444444444442
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 6,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        },
+        "missing_both_images": {
+          "queries": 2,
+          "Recall@1": 0.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.5
+        },
+        "missing_found_image": {
+          "queries": 1,
+          "Recall@1": 0.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.5
+        },
+        "missing_lost_image": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "similar_item": {
+          "queries": 23,
+          "Recall@1": 0.4782608695652174,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.7391304347826086
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.16666666666666669,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.11111111111111116
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_both_images": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_found_image": {
+          "Recall@1": -1.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": -0.5
+        },
+        "missing_lost_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.13043478260869568,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0724637681159419
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            2019,
+            2004,
+            2010
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1005,
+          "relevant_ids": [
+            2005
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3005,
+            2005,
+            3006,
+            3018,
+            3004
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1008,
+          "relevant_ids": [
+            2008
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3008,
+            2008,
+            2007,
+            3007,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1011,
+          "relevant_ids": [
+            2011
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3011,
+            2011,
+            2012,
+            2019,
+            3012
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1012,
+          "relevant_ids": [
+            2012
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3012,
+            2012,
+            2011,
+            3011,
+            2010
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            3014,
+            2014,
+            2024
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            3013,
+            2024,
+            3024
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1015,
+          "relevant_ids": [
+            2015
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3015,
+            2015,
+            2016,
+            3016,
+            2023
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1016,
+          "relevant_ids": [
+            2016
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3016,
+            2016,
+            2015,
+            3015,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict"
+          ]
+        },
+        {
+          "query_id": 1018,
+          "relevant_ids": [
+            2018
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3018,
+            2018,
+            2011,
+            2017,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1020,
+          "relevant_ids": [
+            2020
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3020,
+            2020,
+            2019,
+            2009,
+            3003
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "missing_found_image"
+          ]
+        },
+        {
+          "query_id": 1021,
+          "relevant_ids": [
+            2021
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3021,
+            2021,
+            2024,
+            3014,
+            2001
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "missing_both_images"
+          ]
+        },
+        {
+          "query_id": 1023,
+          "relevant_ids": [
+            2023
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3023,
+            2023,
+            3003,
+            2015,
+            2019
+          ],
+          "challenge_tags": [
+            "ambiguous_description",
+            "missing_both_images"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "bge-base",
+      "model": "BAAI/bge-base-en-v1.5",
+      "cohort": "all_reports",
+      "method": "full",
+      "queries": 24,
+      "candidates": 48,
+      "metrics": {
+        "Recall@1": 0.75,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.875
+      },
+      "latency_ms": {
+        "average": 73.98913334084985,
+        "median": 72.28419987950474,
+        "p95": 106.404900085181,
+        "samples": 24,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.20833333333333337,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.10416666666666663
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 6,
+          "Recall@1": 0.8333333333333334,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.9166666666666666
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "missing_both_images": {
+          "queries": 2,
+          "Recall@1": 0.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.5
+        },
+        "missing_found_image": {
+          "queries": 1,
+          "Recall@1": 0.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.5
+        },
+        "missing_lost_image": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "similar_item": {
+          "queries": 23,
+          "Recall@1": 0.782608695652174,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.8913043478260869
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.33333333333333337,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.16666666666666663
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_both_images": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_found_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_lost_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.21739130434782616,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.10869565217391297
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            2004,
+            3004,
+            2019
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            3014,
+            2014,
+            3022
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            2013,
+            3013,
+            2006
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1020,
+          "relevant_ids": [
+            2020
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3020,
+            2020,
+            2019,
+            3019,
+            2010
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "missing_found_image"
+          ]
+        },
+        {
+          "query_id": 1021,
+          "relevant_ids": [
+            2021
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3021,
+            2021,
+            2024,
+            3014,
+            2006
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "missing_both_images"
+          ]
+        },
+        {
+          "query_id": 1023,
+          "relevant_ids": [
+            2023
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3023,
+            2023,
+            3022,
+            2013,
+            3013
+          ],
+          "challenge_tags": [
+            "ambiguous_description",
+            "missing_both_images"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "e5-base",
+      "model": "intfloat/e5-base-v2",
+      "cohort": "image_complete",
+      "method": "text",
+      "queries": 20,
+      "candidates": 43,
+      "metrics": {
+        "Recall@1": 0.55,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.775
+      },
+      "latency_ms": {
+        "average": 43.750049942173064,
+        "median": 42.2251500422135,
+        "p95": 52.853900007903576,
+        "samples": 20,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.25000000000000006,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.1333333333333333
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 5,
+          "Recall@1": 0.6,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.8
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 0.25,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.625
+        },
+        "similar_item": {
+          "queries": 20,
+          "Recall@1": 0.55,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.775
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.19999999999999996,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.13333333333333341
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": -0.25,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": -0.125
+        },
+        "similar_item": {
+          "Recall@1": 0.25000000000000006,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.1333333333333333
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            2004,
+            2010,
+            2008
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1008,
+          "relevant_ids": [
+            2008
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3008,
+            2008,
+            2007,
+            2004,
+            3007
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1011,
+          "relevant_ids": [
+            2011
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3011,
+            2011,
+            2012,
+            2019,
+            2003
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            3014,
+            2014,
+            2007
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            3013,
+            2013,
+            3024
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1015,
+          "relevant_ids": [
+            2015
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3015,
+            2015,
+            3016,
+            2016,
+            2007
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1016,
+          "relevant_ids": [
+            2016
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3016,
+            2016,
+            2015,
+            3015,
+            3014
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict"
+          ]
+        },
+        {
+          "query_id": 1018,
+          "relevant_ids": [
+            2018
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3018,
+            2018,
+            2011,
+            3003,
+            2017
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1022,
+          "relevant_ids": [
+            2022
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3022,
+            2022,
+            2008,
+            2024,
+            2001
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "e5-base",
+      "model": "intfloat/e5-base-v2",
+      "cohort": "image_complete",
+      "method": "full",
+      "queries": 20,
+      "candidates": 43,
+      "metrics": {
+        "Recall@1": 0.95,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.975
+      },
+      "latency_ms": {
+        "average": 71.05608501005918,
+        "median": 72.99715001136065,
+        "p95": 83.88120005838573,
+        "samples": 20,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.35,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.17499999999999993
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 5,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "similar_item": {
+          "queries": 20,
+          "Recall@1": 0.95,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.975
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.4,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.19999999999999996
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.35,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.17499999999999993
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            2004,
+            3004,
+            3011
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "e5-base",
+      "model": "intfloat/e5-base-v2",
+      "cohort": "all_reports",
+      "method": "text",
+      "queries": 24,
+      "candidates": 48,
+      "metrics": {
+        "Recall@1": 0.5833333333333334,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.7916666666666666
+      },
+      "latency_ms": {
+        "average": 29.805616659965988,
+        "median": 26.913049980066717,
+        "p95": 47.273000003769994,
+        "samples": 24,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.25000000000000006,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.13194444444444442
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 6,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 0.25,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.625
+        },
+        "missing_both_images": {
+          "queries": 2,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        },
+        "missing_found_image": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "missing_lost_image": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "similar_item": {
+          "queries": 23,
+          "Recall@1": 0.6086956521739131,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.8043478260869565
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.16666666666666669,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.11111111111111116
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": -0.25,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": -0.125
+        },
+        "missing_both_images": {
+          "Recall@1": 0.5,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.25
+        },
+        "missing_found_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_lost_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.26086956521739135,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.1376811594202898
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            2004,
+            2010,
+            3023
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1008,
+          "relevant_ids": [
+            2008
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3008,
+            2008,
+            2007,
+            2004,
+            3007
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1011,
+          "relevant_ids": [
+            2011
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3011,
+            2011,
+            2012,
+            2019,
+            2003
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1013,
+          "relevant_ids": [
+            2013
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3013,
+            2013,
+            3014,
+            2014,
+            2007
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1014,
+          "relevant_ids": [
+            2014
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3014,
+            2014,
+            3013,
+            2013,
+            3024
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1015,
+          "relevant_ids": [
+            2015
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3015,
+            2015,
+            3016,
+            2016,
+            2007
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1016,
+          "relevant_ids": [
+            2016
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3016,
+            2016,
+            2015,
+            3015,
+            3014
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict"
+          ]
+        },
+        {
+          "query_id": 1018,
+          "relevant_ids": [
+            2018
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3018,
+            2018,
+            2011,
+            3021,
+            3003
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "ambiguous_description"
+          ]
+        },
+        {
+          "query_id": 1022,
+          "relevant_ids": [
+            2022
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3022,
+            2022,
+            2008,
+            2024,
+            2001
+          ],
+          "challenge_tags": [
+            "similar_item",
+            "location_conflict"
+          ]
+        },
+        {
+          "query_id": 1023,
+          "relevant_ids": [
+            2023
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3023,
+            2023,
+            3003,
+            2019,
+            3022
+          ],
+          "challenge_tags": [
+            "ambiguous_description",
+            "missing_both_images"
+          ]
+        }
+      ]
+    },
+    {
+      "model_key": "e5-base",
+      "model": "intfloat/e5-base-v2",
+      "cohort": "all_reports",
+      "method": "full",
+      "queries": 24,
+      "candidates": 48,
+      "metrics": {
+        "Recall@1": 0.9166666666666666,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9583333333333334
+      },
+      "latency_ms": {
+        "average": 71.76103752378064,
+        "median": 75.02969994675368,
+        "p95": 85.80829994753003,
+        "samples": 24,
+        "mode": "warm_model_and_embedding_cache"
+      },
+      "metric_delta_vs_minilm": {
+        "Recall@1": 0.375,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0,
+        "MRR": 0.1875
+      },
+      "challenge_metrics": {
+        "ambiguous_description": {
+          "queries": 6,
+          "Recall@1": 0.8333333333333334,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.9166666666666666
+        },
+        "category_conflict": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "date_gap": {
+          "queries": 2,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "location_conflict": {
+          "queries": 4,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "missing_both_images": {
+          "queries": 2,
+          "Recall@1": 0.5,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.75
+        },
+        "missing_found_image": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "missing_lost_image": {
+          "queries": 1,
+          "Recall@1": 1.0,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 1.0
+        },
+        "similar_item": {
+          "queries": 23,
+          "Recall@1": 0.9565217391304348,
+          "Recall@3": 1.0,
+          "Recall@5": 1.0,
+          "MRR": 0.9782608695652174
+        }
+      },
+      "challenge_delta_vs_minilm": {
+        "ambiguous_description": {
+          "Recall@1": 0.33333333333333337,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.16666666666666663
+        },
+        "category_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "date_gap": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "location_conflict": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "missing_both_images": {
+          "Recall@1": 0.5,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.25
+        },
+        "missing_found_image": {
+          "Recall@1": 1.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.5
+        },
+        "missing_lost_image": {
+          "Recall@1": 0.0,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.0
+        },
+        "similar_item": {
+          "Recall@1": 0.39130434782608703,
+          "Recall@3": 0.0,
+          "Recall@5": 0.0,
+          "MRR": 0.19565217391304346
+        }
+      },
+      "failures_at_1": [
+        {
+          "query_id": 1003,
+          "relevant_ids": [
+            2003
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3003,
+            2003,
+            2004,
+            3004,
+            3011
+          ],
+          "challenge_tags": [
+            "similar_item"
+          ]
+        },
+        {
+          "query_id": 1023,
+          "relevant_ids": [
+            2023
+          ],
+          "relevant_rank": 2,
+          "top_ids": [
+            3023,
+            2023,
+            3022,
+            2013,
+            3013
+          ],
+          "challenge_tags": [
+            "ambiguous_description",
+            "missing_both_images"
+          ]
+        }
+      ]
+    }
+  ]
+}

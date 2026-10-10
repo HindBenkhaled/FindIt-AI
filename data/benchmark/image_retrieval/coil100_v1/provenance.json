@@ -1,0 +1,10 @@
+{
+  "dataset": "COIL-100",
+  "source_organization": "Columbia University CAVE",
+  "source_url": "https://www.cs.columbia.edu/CAVE/software/softlib/coil-100.php",
+  "download_url": "https://www.cs.columbia.edu/CAVE/databases/SLAM_coil-20_coil-100/coil-100/coil-100.zip",
+  "citation": "S. A. Nene, S. K. Nayar and H. Murase, CUCS-006-96 (1996)",
+  "terms": "The official page provides public download access but does not state a standardized license. Treat as research/academic data; do not redistribute images.",
+  "accessed": "2026-10-10",
+  "archive_sha256": "fcb4b8b01c0778f416d8d7a09f45082c4f7075cc74743dcddd5c44307bd4afe7"
+}
