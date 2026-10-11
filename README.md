@@ -198,7 +198,7 @@ data/benchmark/             Reproducible synthetic benchmark definitions
 data/evaluation/            Curated measured results and selection summaries
 scripts/                    Seeding, evaluation, tuning, and data generation
 tests/                      API, ranking, privacy, cache, and benchmark tests
-docs/                       Design, validation, screenshots, and interview notes
+docs/                       Design notes, validation records, and screenshots
 ```
 
 The [design notes](docs/design.md) explain privacy boundaries and scoring tradeoffs. The [validation record](docs/validation.md) records the final checks. The [`campus_v1` benchmark guide](data/benchmark/campus_v1/README.md) documents split integrity and synthetic-data provenance.
@@ -217,13 +217,9 @@ See the [validation record](docs/validation.md) for scope and caveats.
 
 ## Limitations
 
-- All campus reports and illustrations are synthetic; procedural images are much easier than real photos.
-- The final test has only 16 queries, so each miss changes Recall@1 by 6.25 percentage points.
-- Scores are uncalibrated heuristics and must not be treated as ownership probabilities.
-- The demo staff key is not authentication; a public deployment needs university SSO, report ownership, roles, audit logs, and rate limits.
-- SQLite, local uploads, exhaustive retrieval, and an in-process model cache target a small single-instance portfolio application.
-- Location strings do not encode walking distance, and reported dates may be inaccurate.
-- Database and file writes are not one transaction; an interrupted upload can leave an orphan file.
-- Embedding caches can outlive deleted reports. Do not enter real personal or sensitive information in this demo.
+- The final campus benchmark is synthetic and relatively small, with 16 held-out queries, so its metrics should not be interpreted as real-world deployment accuracy.
+- Image evaluation still relies on controlled and procedural imagery; performance on cluttered, occluded real campus photographs requires further validation.
+- The prototype does not include university SSO or production-grade identity verification.
+- SQLite, local storage, and exhaustive retrieval suit the current single-instance prototype but would need to evolve for a large-scale deployment.
 
-The next ML milestone is a consented real-photo campus benchmark with hard negatives and a separately governed test split. See [interview notes](docs/interview.md) for concise explanations of the major technical decisions.
+Future work will focus on evaluation with consented real-world campus photographs under clutter, occlusion, lighting variation, and visually similar-item conditions.

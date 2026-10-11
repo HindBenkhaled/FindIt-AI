@@ -58,3 +58,8 @@ frontend/playwright-report/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Personal notes
+docs/private/
+notes/
+interview-notes.md
